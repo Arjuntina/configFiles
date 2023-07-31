@@ -1,0 +1,6 @@
+2023/07/30-16:20:30.959 510 Reusing MANIFEST /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/30-16:20:30.959 510 Recovering log #19
+2023/07/30-16:20:30.987 510 Reusing old log /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000019.log 
+2023/07/30-16:52:07.510 510 Level-0 table #24: started
+2023/07/30-16:52:07.530 510 Level-0 table #24: 1586456 bytes OK
+2023/07/30-16:52:07.532 510 Delete type=0 #19
