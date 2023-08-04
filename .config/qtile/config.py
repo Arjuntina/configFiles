@@ -27,7 +27,6 @@
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
-from libqtile.utils import guess_terminal
 
 mod = "mod4"           # Windows key, used for basically everything
 mod2 = "mod1"          # Alt key, not really used but good to define in case 
@@ -41,7 +40,7 @@ keys = [
     Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),
     Key([mod], "j", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
-    Key([mod], "g", lazy.window.bring_to_front()),
+    Key([mod], "i", lazy.window.bring_to_front()),
     # Key([mod], "space", lazy.layout.next(), desc="Move window focus to other window"),
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
@@ -67,11 +66,14 @@ keys = [
     #    desc="Toggle between split and unsplit sides of stack",
     #),
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
+    Key([mod], "space", lazy.spawn("rofi -show drun"), desc="Application launcher"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
+    Key([mod, "shift"], "Tab", lazy.prev_layout(), desc="Toggle between layouts in the other direction"),
+    Key([mod, "control"], "Return", lazy.layout.toggle_split()),
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
-    Key([mod], "a", lazy.reload_config(), desc="Reload the config"),
-    Key([mod], "q", lazy.shutdown(), desc="Shutdown Qtile"),
+    Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
+    Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 ]
 
@@ -102,10 +104,10 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
+    layout.Columns(border_focus="#fb7113c0", border_focus_stack="#fb7113c0", border_width=4, border_on_single=True, margin=6),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
-    layout.Stack(num_stacks=2),
+    # layout.Stack(num_stacks=2),
     #layout.Bsp(),
     #layout.Matrix(),
     #layout.MonadTall(),
@@ -118,7 +120,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
+    font="Adobe Utopia",
     fontsize=12,
     padding=3,
 )
@@ -133,9 +135,9 @@ screens = [
                 widget.Prompt(),
                 widget.WindowName(),
                 widget.Systray(),
-                widget.Clock(format="%H:%M %m-%d-%y"),
                 widget.Battery(),
-                widget.QuickExit(),
+                widget.Spacer(length=10),
+                widget.Clock(format="%H:%M %m/%d/%y", background="7e009ac5"),
             ],
             24,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
