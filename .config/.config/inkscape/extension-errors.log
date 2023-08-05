@@ -4,12 +4,6 @@ Dependency:
 	location: path
 	string: ps2pdf
 
-Extension "GIMP XCF" failed to load because a dependency was not met.
-Dependency:
-	type: executable
-	location: path
-	string: gimp
-
 Extension "Plot" failed to load because a dependency was not met.
 Dependency:
 	type: file
