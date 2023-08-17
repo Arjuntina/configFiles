@@ -1,0 +1,43 @@
+2023-08-11 15:10:21.731 [info] Log level: Info
+2023-08-11 15:10:21.731 [info] Validating found git in: "git"
+2023-08-11 15:10:21.731 [info] Using git "2.41.0" from "git"
+2023-08-11 15:14:39.758 [info] Log level: Info
+2023-08-11 15:14:39.758 [info] Validating found git in: "git"
+2023-08-11 15:14:39.758 [info] Using git "2.41.0" from "git"
+2023-08-11 15:14:39.761 [info] > git rev-parse --show-toplevel [6ms]
+2023-08-11 15:14:39.767 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-08-11 15:14:39.776 [info] Open repository: /home/arjuntina/Files/BU/Classes/Psychology/psychTextbook
+2023-08-11 15:14:39.786 [info] > git config --get commit.template [4ms]
+2023-08-11 15:14:39.787 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-11 15:14:39.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-08-11 15:14:39.800 [info] > git rev-parse --show-toplevel [5ms]
+2023-08-11 15:14:40.294 [info] > git check-ignore -v -z --stdin [3ms]
+2023-08-11 15:14:41.525 [info] > git status -z -uall [1726ms]
+2023-08-11 15:14:41.537 [info] > git config --get commit.template [1ms]
+2023-08-11 15:14:41.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-08-11 15:14:42.126 [info] > git show --textconv :Textbook.html [5ms]
+2023-08-11 15:14:42.128 [info] > git ls-files --stage -- /home/arjuntina/Files/BU/Classes/Psychology/psychTextbook/Textbook.html [2ms]
+2023-08-11 15:14:42.133 [info] > git cat-file -s 4080a4b8639bc9e053af43d792e4ebbaed8ff1a2 [2ms]
+2023-08-11 15:14:42.747 [info] > git status -z -uall [1167ms]
+2023-08-11 15:14:43.139 [info] > git show --textconv :Textbook.css [4ms]
+2023-08-11 15:14:43.140 [info] > git ls-files --stage -- /home/arjuntina/Files/BU/Classes/Psychology/psychTextbook/Textbook.css [2ms]
+2023-08-11 15:14:43.144 [info] > git cat-file -s bbbfd0cc824858ee9b71b363042836b7882ab60b [1ms]
+2023-08-11 15:14:44.476 [info] > git show --textconv :Textbook.html [4ms]
+2023-08-11 15:14:44.478 [info] > git ls-files --stage -- /home/arjuntina/Files/BU/Classes/Psychology/psychTextbook/Textbook.html [3ms]
+2023-08-11 15:14:44.482 [info] > git cat-file -s 4080a4b8639bc9e053af43d792e4ebbaed8ff1a2 [1ms]
+2023-08-11 15:15:31.661 [info] > git show --textconv :README.md [7ms]
+2023-08-11 15:15:31.662 [info] > git ls-files --stage -- /home/arjuntina/Files/BU/Classes/Psychology/psychTextbook/README.md [3ms]
+2023-08-11 15:15:31.666 [info] > git cat-file -s 533258f0384598d11777504a9e7ec1e04f216f96 [1ms]
+2023-08-11 15:15:49.824 [info] > git check-ignore -v -z --stdin [6ms]
+2023-08-11 15:15:51.108 [info] > git check-ignore -v -z --stdin [6ms]
+2023-08-11 15:16:33.779 [info] > git show --textconv HEAD:Textbook.css [5ms]
+2023-08-11 15:16:33.781 [info] > git ls-tree -l HEAD -- /home/arjuntina/Files/BU/Classes/Psychology/psychTextbook/Textbook.css [2ms]
+2023-08-11 15:16:43.798 [info] > git show --textconv :README.md [4ms]
+2023-08-11 15:16:43.800 [info] > git ls-files --stage -- /home/arjuntina/Files/BU/Classes/Psychology/psychTextbook/README.md [2ms]
+2023-08-11 15:16:43.805 [info] > git cat-file -s 533258f0384598d11777504a9e7ec1e04f216f96 [1ms]
+2023-08-11 15:16:49.263 [info] > git show --textconv :Textbook.css [4ms]
+2023-08-11 15:16:49.265 [info] > git ls-files --stage -- /home/arjuntina/Files/BU/Classes/Psychology/psychTextbook/Textbook.css [2ms]
+2023-08-11 15:16:49.270 [info] > git cat-file -s bbbfd0cc824858ee9b71b363042836b7882ab60b [1ms]
+2023-08-11 15:17:25.972 [info] > git config --get commit.template [7ms]
+2023-08-11 15:17:25.973 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-08-11 15:17:27.091 [info] > git status -z -uall [1112ms]

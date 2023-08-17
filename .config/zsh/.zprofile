@@ -1,5 +1,6 @@
 # copied from bash shell
-# ~/.zprofile
+# hard linked to ~/.zprofile with command "ln ~/.config/zsh/.zprofile ~/.zprofile"
+# better than soft link? i think so
 
 
 [[ -f ~/.zshrc ]] && . ~/.zshrc

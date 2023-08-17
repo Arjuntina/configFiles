@@ -1,3 +1,4 @@
+# hard linked to home directory with prompt "ln -s ~/.config/zsh/.zshrc ~/.zshrc"
 # customize the look of the prompt
 PS1='%~ > '
 

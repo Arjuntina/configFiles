@@ -1,0 +1,8 @@
+2023/08/11-09:58:53.485 1160 Creating DB /home/arjuntina/.config/discord/Local Storage/leveldb since it was missing.
+2023/08/11-09:58:53.489 1160 Reusing MANIFEST /home/arjuntina/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/08/11-10:01:18.278 1160 Level-0 table #5: started
+2023/08/11-10:01:18.284 1160 Level-0 table #5: 18978 bytes OK
+2023/08/11-10:01:18.285 1160 Delete type=0 #3
+2023/08/11-10:03:31.791 1160 Level-0 table #7: started
+2023/08/11-10:03:31.808 1160 Level-0 table #7: 1813594 bytes OK
+2023/08/11-10:03:31.811 1160 Delete type=0 #4

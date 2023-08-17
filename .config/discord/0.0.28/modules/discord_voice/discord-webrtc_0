@@ -1,0 +1,486 @@
+[2023-08-11 09:59:23.068] [4628] (engine.cpp:309): Created native Engine, time: Fri Aug 11 09:59:23 2023 PDT, logPath: /home/arjuntina/.config/discord/0.0.28/modules/discord_voice/, logLevel: 2
+[2023-08-11 09:59:23.069] [4628] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-08-11 09:59:23.069] [4628] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-08-11 09:59:23.069] [4628] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:143): current platform is Linux
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:143): current platform is Linux
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-08-11 09:59:23.069] [4628] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-08-11 09:59:23.069] [4628] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-08-11 09:59:23.069] [4628] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-08-11 09:59:23.069] [4628] (audio_engine.cpp:520): Creating audio engine: standard
+[2023-08-11 09:59:23.069] [4628] (audio_device_impl.cc:364): Init
+[2023-08-11 09:59:23.076] [4628] (audio_device_impl.cc:364): Init
+[2023-08-11 09:59:23.077] [4628] (audio_coding.cpp:147): Using software Opus decoder
+[2023-08-11 09:59:23.077] [4628] (audio_coding.cpp:164): Using software Opus encoder
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-08-11 09:59:23.077] [4628] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-08-11 09:59:23.077] [4628] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-11 09:59:23.077] [4628] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:573): output: 1
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-11 09:59:23.077] [4628] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-11 09:59:23.077] [4628] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-08-11 09:59:23.077] [4628] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-11 09:59:23.077] [4628] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:619): output: 1
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-08-11 09:59:23.077] [4628] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-08-11 09:59:23.077] [4628] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-08-11 09:59:23.077] [4628] (audio_device_impl.cc:914): output: 0
+[2023-08-11 09:59:23.077] [4628] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-08-11 09:59:23.078] [4628] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-08-11 09:59:23.078] [4628] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-08-11 09:59:23.078] [4628] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-08-11 09:59:23.078] [4628] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-08-11 09:59:23.078] [4628] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-08-11 09:59:23.078] [4628] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-08-11 09:59:23.078] [4628] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-08-11 09:59:23.078] [4628] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-08-11 09:59:23.078] [4628] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-08-11 09:59:23.078] [4628] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:190): *** OnDevicesChanged:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:191): * audioInput:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:196): * audioOutput:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:190): *** OnDevicesChanged:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:191): * audioInput:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:194): - default: Built-in Audio Analog Stereo ()
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:194): - Built-in Audio Analog Stereo ()
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:196): * audioOutput:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:190): *** OnDevicesChanged:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:191): * audioInput:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:194): - default: Built-in Audio Analog Stereo ()
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:194): - Built-in Audio Analog Stereo ()
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:196): * audioOutput:
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:199): - default: Built-in Audio Analog Stereo ()
+[2023-08-11 09:59:23.078] [4628] (engine.cpp:199): - Built-in Audio Analog Stereo ()
+[2023-08-11 09:59:23.152] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","active user changed (now: undefined, was: null, was: undefined)"]
+[2023-08-11 09:59:23.155] [4628] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-11 09:59:23.155] [4628] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-08-11 09:59:23.155] [4628] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-11 09:59:23.155] [4628] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-11 09:59:23.155] [4628] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-08-11 09:59:23.155] [4628] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:573): output: 1
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-11 09:59:23.156] [4628] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-11 09:59:23.156] [4628] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-08-11 09:59:23.156] [4628] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-11 09:59:23.156] [4628] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:619): output: 1
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-08-11 09:59:23.156] [4628] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-08-11 09:59:23.156] [4628] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-11 09:59:23.156] [4628] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-08-11 09:59:23.156] [4628] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-11 09:59:23.162] [4583] (discord.cpp:666): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 218604, Version Hash: 958c14cce43dc94338a86831f32e7783916c73e7"]
+[2023-08-11 09:59:23.191] [4628] (engine.cpp:744): Engine::SetClipBufferLength(0)
+[2023-08-11 09:59:23.316] [4583] (discord.cpp:666): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-08-11 09:59:23.379] [4583] (discord.cpp:666): JS console: ["%c[default]","[NATIVE INFO] host 0.0.28, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 2, discord_voice: 2, build: null"]
+[2023-08-11 09:59:23.398] [4628] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-08-11 09:59:23.398] [4628] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-08-11 09:59:23.398] [4628] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-11 09:59:23.398] [4628] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-11 09:59:23.398] [4628] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-08-11 09:59:23.399] [4628] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-08-11 09:59:23.399] [4628] (audio_device_impl.cc:573): output: 1
+[2023-08-11 09:59:23.399] [4628] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-08-11 09:59:23.399] [4628] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-08-11 09:59:23.399] [4628] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-08-11 09:59:23.399] [4628] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-08-11 09:59:23.399] [4628] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-08-11 09:59:23.399] [4628] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-08-11 09:59:23.399] [4628] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-08-11 09:59:23.399] [4628] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-08-11 09:59:23.400] [4628] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-08-11 09:59:23.400] [4628] (audio_device_impl.cc:619): output: 1
+[2023-08-11 09:59:23.400] [4628] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-08-11 09:59:23.400] [4628] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-08-11 09:59:23.406] [4583] (discord.cpp:666): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-08-11 09:59:23.533] [4583] (discord.cpp:666): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-08-11 09:59:35.585] [4583] (discord.cpp:666): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discordapp.com/assets/df22f2b7f3ea2bf6acf1.js:1464:330)\n    at Bn (https://discordapp.com/assets/df22f2b7f3ea2bf6acf1.js:1490:696)\n    at Wn (https://discordapp.com/assets/df22f2b7f3ea2bf6acf1.js:1493:356)\n    at Zn (https://discordapp.com/assets/df22f2b7f3ea2bf6acf1.js:1493:199)\n    at Yn (https://discordapp.com/assets/df22f2b7f3ea2bf6acf1.js:1492:886)\n    at Kn (https://discordapp.com/assets/df22f2b7f3ea2bf6acf1.js:1493:697)\n    at zn (https://discordapp.com/assets/df22f2b7f3ea2bf6acf1.js:1493:731)\n    at i (https://discordapp.com/assets/df22f2b7f3ea2bf6acf1.js:1460:961)\n    at 408481 (https://discordapp.com/assets/43fd3da5a281820994dc.js:21:346)\n    at l (https://discordapp.com/assets/5dd760b84fd2b5ce4495.js:1:154)\n    at 558820 (https://discordapp.com/assets/43fd3da5a281820994dc.js:14:168)\n    at l (https://discordapp.com/assets/5dd760b84fd2b5ce4495.js:1:154)\n    at 308739 (https://discordapp.com/assets/43fd3da5a281820994dc.js:2:331)\n    at l (https://discordapp.com/assets/5dd760b84fd2b5ce4495.js:1:154)\n    at 173242 (https://discordapp.com/assets/a6cc3463bf1623adf51b.js:348:101)\n    at l (https://discordapp.com/assets/5dd760b84fd2b5ce4495.js:1:154)\n    at 816526 (https://discordapp.com/assets/64725dd70d18b11a2e5b.js:35:278)\n    at Function.l (https://discordapp.com/assets/5dd760b84fd2b5ce4495.js:1:154)"]
+[2023-08-11 09:59:35.667] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 09:59:36.429] [4583] (discord.cpp:666): JS console: ["Initializing krisp module"]
+[2023-08-11 09:59:37.639] [4583] (discord.cpp:666): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-08-11 09:59:37.648] [4583] (discord.cpp:666): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-08-11 09:59:47.270] [4583] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-08-11 09:59:47.508] [4583] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[239ms] got hello, auth timeout=122761ms"]
+[2023-08-11 09:59:47.593] [4583] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[324ms] connected, handshaking with fingerprint: PA3hA97-IekMpKehQsii94Iki5Z1qY3nJ1cn_jlxAxA"]
+[2023-08-11 09:59:47.677] [4583] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[407ms] computed nonce proof"]
+[2023-08-11 09:59:47.758] [4583] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[489ms] handshake complete awaiting remote auth."]
+[2023-08-11 09:59:55.245] [4583] (discord.cpp:666): JS console: ["%c[RPCServer:WSS]","Socket Message: 3","[object Object]"]
+[2023-08-11 09:59:55.249] [4583] (discord.cpp:666): JS console: ["%c[RPCServer:WSS]","Socket Emit: 3","[object Object]"]
+[2023-08-11 09:59:55.873] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2023-08-11 09:59:56.549] [4583] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[9280ms] cleaning up"]
+[2023-08-11 10:00:05.803] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching LOGIN_SUCCESS"]
+[2023-08-11 10:00:05.805] [4583] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","setAuthToken called.","[object Object]"]
+[2023-08-11 10:00:05.806] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","session refresh dispatched","[object Object]"]
+[2023-08-11 10:00:05.840] [4583] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2023-08-11 10:00:05.842] [4583] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-08-11 10:00:05.848] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-08-11 10:00:05.849] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-08-11 10:00:05.849] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 10:00:05.849] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 10:00:05.849] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 10:00:05.850] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 10:00:05.851] [4583] (discord.cpp:666): JS console: ["%c[LoginQRSocket]","[10ms] cleaning up"]
+[2023-08-11 10:00:06.054] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 205 ms"]
+[2023-08-11 10:00:06.054] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-08-11 10:00:06.054] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-08-11 10:00:06.055] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-08-11 10:00:06.063] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-0dqv: 0, heartbeat interval: 41250, took 213 ms"]
+[2023-08-11 10:00:07.230] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 1381ms, as 15283d5daeef9858869c74ce3190a5c9 via \ngateway-prd-us-east1-c-0dqv: 409.717\n|  id_created: 2.195\n|  session_lookup_time: 6.55\n|  session_lookup_finished: 0.025\n|  discord-sessions-prd-2-140: 386.324\n|  |  start_session: 329.735\n|  |  |  discord-api-5dcf57d94f-n2n6z: 292.369\n|  |  |  |  get_user: 12.207\n|  |  |  |  get_guilds: 43.339\n|  |  |  |  user_settings_proto: 0.968\n|  |  |  |  relationships: 25.001\n|  |  |  |  friend_suggestion: 0.069\n|  |  |  |  connections: 0.193\n|  |  |  |  serialized_read_states: 0.008\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.001\n|  |  |  |  sanitize_premium_perks: 0.001\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 160.396\n|  |  |  |  user_segments: 0.007\n|  |  |  |  experiments: 28.985\n|  |  |  |  affine_user_ids: 0.019\n|  |  |  |  required_action: 0.002\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.12\n|  |  presence_started: 0.355\n|  |  guilds_started: 1.96\n|  |  guilds_connect: 35.422\n|  |  presence_connect: 0.001\n|  |  connect_finished: 35.446\n|  |  build_ready: 5.809\n|  |  clean_ready: 0.001\n|  |  optimize_ready: 12.604\n|  |  split_ready: 0.291"]
+[2023-08-11 10:00:07.230] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 10:00:07.289] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-08-11 10:00:07.290] [4583] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-08-11 10:00:07.291] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 435985771674206208, database: undefined)"]
+[2023-08-11 10:00:07.291] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (435985771674206208 → null)"]
+[2023-08-11 10:00:07.321] [4583] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-08-11 10:00:07.387] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","active user changed (now: 435985771674206208, was: undefined, was: undefined)"]
+[2023-08-11 10:00:07.389] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 142ms"]
+[2023-08-11 10:00:07.391] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-c.discord.gg"]
+[2023-08-11 10:00:07.439] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1589ms"]
+[2023-08-11 10:00:07.439] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 10:00:08.955] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 635.8999999994412ms"]
+[2023-08-11 10:00:18.791] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1120747906937405451 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-11 10:00:18.839] [4583] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1120747906165645352/1120747906937405451"]
+[2023-08-11 10:00:19.158] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 0 messages for 1120747906937405451 isBefore:false isAfter:false"]
+[2023-08-11 10:00:19.822] [4583] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-08-11 10:00:19.861] [4583] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Server revision: 108, Client revision: null"]
+[2023-08-11 10:00:19.862] [4583] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Unable to process domain list delta: Client revision number is null"]
+[2023-08-11 10:00:19.862] [4583] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Downloading the full bad domains file"]
+[2023-08-11 10:00:20.195] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 1120747906937405454 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
+[2023-08-11 10:00:20.255] [4583] (discord.cpp:666): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1120747906165645352/1120747906937405454"]
+[2023-08-11 10:00:20.647] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1120747906937405454 isBefore:false isAfter:false"]
+[2023-08-11 10:00:20.919] [4583] (discord.cpp:666): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 26991 after update"]
+[2023-08-11 10:00:21.128] [4583] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2023-08-11 10:00:22.982] [5018] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2023-08-11 10:00:22.982] [5018] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2023-08-11 10:00:22.982] [5018] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2023-08-11 10:00:22.982] [5018] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2023-08-11 10:00:22.982] [5018] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2023-08-11 10:00:23.096] [5018] (region_latency_tester.cpp:271): Average RTT for region us-west is 36.25
+[2023-08-11 10:00:23.096] [5018] (region_latency_tester.cpp:271): Average RTT for region santa-clara is 52.75
+[2023-08-11 10:00:23.096] [5018] (region_latency_tester.cpp:271): Average RTT for region seattle is 68.75
+[2023-08-11 10:00:23.096] [5018] (region_latency_tester.cpp:271): Average RTT for region us-south is 80.75
+[2023-08-11 10:00:23.096] [5018] (region_latency_tester.cpp:271): Average RTT for region us-central is 103
+[2023-08-11 10:00:23.097] [4583] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC region latency test completed: ","us-west,santa-clara,seattle,us-south,us-central"]
+[2023-08-11 10:00:50.687] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:02:26.020] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:02:29.733] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:02:33.105] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:03:26.335] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:03:26.791] [4583] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload5"]
+[2023-08-11 10:03:27.012] [4583] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Uploading upload5"]
+[2023-08-11 10:03:27.265] [4583] (discord.cpp:666): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 19798 bytes and 1 attachments for Uploader7"]
+[2023-08-11 10:03:27.621] [4583] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload5"]
+[2023-08-11 10:03:28.271] [4583] (discord.cpp:666): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader7"]
+[2023-08-11 10:03:28.883] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:03:39.681] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:03:40.822] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:04:43.439] [4583] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload8"]
+[2023-08-11 10:04:43.842] [4583] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Uploading upload8"]
+[2023-08-11 10:04:44.378] [4583] (discord.cpp:666): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload8"]
+[2023-08-11 10:04:58.691] [4583] (discord.cpp:666): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 34886 bytes and 1 attachments for Uploader10"]
+[2023-08-11 10:04:59.287] [4583] (discord.cpp:666): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader10"]
+[2023-08-11 10:05:15.688] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:06:28.378] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:28.417] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:28.417] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:28.417] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:28.417] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:28.418] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:30.808] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:30.808] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:30.808] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:30.808] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:30.808] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:30.808] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:30.808] [4583] (discord.cpp:666): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-08-11 10:06:43.703] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:06:46.715] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:06:54.817] [4583] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Updating userContent with delay 0"]
+[2023-08-11 10:06:54.838] [4583] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Scheduling save from markDirty"]
+[2023-08-11 10:06:54.881] [4583] (discord.cpp:666): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Persisting proto"]
+[2023-08-11 10:08:27.145] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:08:46.046] [4583] (discord.cpp:666): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-08-11 10:10:21.495] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 764173064236957790 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-11 10:10:26.766] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 764173064236957790 isBefore:false isAfter:false"]
+[2023-08-11 10:12:06.685] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:12:07.903] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:12:11.912] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:12:14.844] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:12:19.297] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:12:49.259] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:12:49.469] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:12:54.477] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 10:12:54.478] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.63 seconds."]
+[2023-08-11 10:12:57.111] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 10:12:57.111] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 10:12:57.113] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 10:13:17.120] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 10:13:17.120] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, The connection timed out after 20000 ms - did not receive OP_HELLO in time.) retrying in 4.72 seconds."]
+[2023-08-11 10:13:21.849] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 10:13:21.849] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 10:13:21.849] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 10:13:24.036] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat requested, but, connection state is CONNECTING and reconnectImmediately was not requested reason: network detected offline."]
+[2023-08-11 10:13:24.639] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Connection has reset backoff for reason: network detected online."]
+[2023-08-11 10:13:27.076] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 5226 ms"]
+[2023-08-11 10:13:27.077] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-08-11 10:13:27.077] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 15283d5daeef9858869c74ce3190a5c9, seq: 728"]
+[2023-08-11 10:13:27.080] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-4c0r: 0, heartbeat interval: 41250, took 5230 ms"]
+[2023-08-11 10:13:27.192] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUMED] took 5342ms, via \ngateway-prd-us-east1-c-4c0r: 1.99\n|  id_created: 0\n|  session_lookup_time: 0.515\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-140: 0.11, replayed 18 events, new seq: 746"]
+[2023-08-11 10:13:27.193] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 10:13:27.215] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-08-11 10:14:22.393] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:14:23.026] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:14:23.573] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:14:57.482] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:15:00.990] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:15:01.406] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:19:02.209] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:19:05.659] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:19:07.112] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:21:09.141] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:21:09.357] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:21:10.202] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:23:57.849] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:23:58.070] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:23:58.844] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:24:32.497] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:24:35.805] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:24:38.044] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:25:10.202] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:25:10.418] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:25:11.073] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:26:53.590] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:26:54.198] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:26:54.836] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 10:27:28.652] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 10:27:32.112] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 10:27:37.120] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 10:27:37.120] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 1.06 seconds."]
+[2023-08-11 10:27:38.178] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 10:27:38.179] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 10:27:38.180] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 10:27:38.699] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 519 ms"]
+[2023-08-11 10:27:38.699] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-08-11 10:27:38.699] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 15283d5daeef9858869c74ce3190a5c9, seq: 1394"]
+[2023-08-11 10:27:38.702] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-0dqv: 0, heartbeat interval: 41250, took 522 ms"]
+[2023-08-11 10:27:38.785] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUMED] took 606ms, via \ngateway-prd-us-east1-c-0dqv: 1.015\n|  id_created: 0\n|  session_lookup_time: 0.477\n|  session_lookup_finished: 0.013\n|  discord-sessions-prd-2-140: 0.047, replayed 2 events, new seq: 1396"]
+[2023-08-11 10:27:38.785] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 10:27:38.820] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-08-11 12:09:15.467] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 12:09:15.468] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[WS CLOSED] (true, 1000, ) retrying in 1.03 seconds."]
+[2023-08-11 12:09:16.493] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 12:09:16.493] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 12:09:16.494] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 12:09:36.497] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 12:09:36.498] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, The connection timed out after 20001 ms - did not receive OP_HELLO in time.) retrying in 2.28 seconds."]
+[2023-08-11 12:09:38.773] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 12:09:38.773] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 12:09:38.773] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 12:09:58.777] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 12:09:58.777] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, The connection timed out after 20000 ms - did not receive OP_HELLO in time.) retrying in 3.46 seconds."]
+[2023-08-11 12:10:02.243] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 12:10:02.243] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 12:10:02.243] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 12:10:20.986] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 18739 ms"]
+[2023-08-11 12:10:20.986] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-08-11 12:10:20.987] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 15283d5daeef9858869c74ce3190a5c9, seq: 5246"]
+[2023-08-11 12:10:20.987] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-kgj7: 0, heartbeat interval: 41250, took 18744 ms"]
+[2023-08-11 12:10:22.940] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[INVALID_SESSION]"]
+[2023-08-11 12:10:22.940] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-08-11 12:10:22.940] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-08-11 12:10:22.941] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-08-11 12:10:28.715] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 26468ms, as 6ef20a85fabe0bd667172b461e314766 via \ngateway-prd-us-east1-b-kgj7: 409.227\n|  id_created: 2.379\n|  session_lookup_time: 4.474\n|  session_lookup_finished: 0.024\n|  discord-sessions-prd-2-79: 369.941\n|  |  start_session: 300.347\n|  |  |  discord-api-6785cb845d-v42j9: 282.263\n|  |  |  |  get_user: 40.924\n|  |  |  |  get_guilds: 19.464\n|  |  |  |  user_settings_proto: 14.103\n|  |  |  |  relationships: 138.888\n|  |  |  |  friend_suggestion: 0.055\n|  |  |  |  connections: 0.099\n|  |  |  |  serialized_read_states: 0.006\n|  |  |  |  pending_payments: 0.001\n|  |  |  |  send_scheduled_deletion_message: 0.001\n|  |  |  |  sanitize_premium_perks: 0.001\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.001\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.001\n|  |  |  |  user_segments: 0.001\n|  |  |  |  experiments: 13.797\n|  |  |  |  affine_user_ids: 22.897\n|  |  |  |  required_action: 0.004\n|  |  |  |  authorized_ip_coro: 0.001\n|  |  starting_guild_connect: 0.375\n|  |  presence_started: 0.415\n|  |  guilds_started: 2.334\n|  |  guilds_connect: 47.92\n|  |  presence_connect: 0\n|  |  connect_finished: 47.947\n|  |  build_ready: 9.79\n|  |  clean_ready: 0.003\n|  |  optimize_ready: 8.05\n|  |  split_ready: 0.676"]
+[2023-08-11 12:10:28.715] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 12:10:28.767] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-08-11 12:10:28.767] [4583] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-08-11 12:10:28.768] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 435985771674206208, database: null)"]
+[2023-08-11 12:10:28.768] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (435985771674206208 → null)"]
+[2023-08-11 12:10:28.805] [4583] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-08-11 12:10:28.854] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 764173064236957790 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-11 12:10:28.871] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 134ms"]
+[2023-08-11 12:10:28.872] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-b.discord.gg"]
+[2023-08-11 12:10:34.486] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 32239ms"]
+[2023-08-11 12:10:34.486] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 12:10:59.203] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 764173064236957790 isBefore:false isAfter:false"]
+[2023-08-11 12:11:03.927] [4583] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is us-west"]
+[2023-08-11 12:12:10.253] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 12:12:10.253] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[WS CLOSED] (true, 1000, ) retrying in 2.99 seconds."]
+[2023-08-11 12:12:13.248] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 12:12:13.248] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 12:12:13.248] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 12:12:24.186] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 10934 ms"]
+[2023-08-11 12:12:24.186] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-08-11 12:12:24.186] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 6ef20a85fabe0bd667172b461e314766, seq: 56"]
+[2023-08-11 12:12:24.187] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-lxkf: 0, heartbeat interval: 41250, took 10939 ms"]
+[2023-08-11 12:12:25.277] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUMED] took 12029ms, via \ngateway-prd-us-east1-b-lxkf: 1.622\n|  id_created: 0\n|  session_lookup_time: 0.382\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-79: 0.12, replayed 44 events, new seq: 100"]
+[2023-08-11 12:12:25.278] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 12:12:25.303] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-08-11 12:13:49.766] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 12:13:53.205] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 12:13:56.709] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 12:15:23.269] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 12:15:23.269] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[WS CLOSED] (true, 1000, ) retrying in 1.59 seconds."]
+[2023-08-11 12:15:24.863] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 12:15:24.864] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 12:15:24.864] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 12:15:41.568] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat requested, but, connection state is CONNECTING and reconnectImmediately was not requested reason: network detected offline."]
+[2023-08-11 12:15:44.864] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 12:15:44.864] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, The connection timed out after 20000 ms - did not receive OP_HELLO in time.) retrying in 3.54 seconds."]
+[2023-08-11 12:15:47.778] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Connection has reset backoff for reason: network detected online."]
+[2023-08-11 12:15:47.778] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 12:15:47.778] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 12:15:47.779] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 12:15:49.226] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1447 ms"]
+[2023-08-11 12:15:49.226] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-08-11 12:15:49.226] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 6ef20a85fabe0bd667172b461e314766, seq: 179"]
+[2023-08-11 12:15:49.227] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-0dqv: 0, heartbeat interval: 41250, took 1449 ms"]
+[2023-08-11 12:15:49.489] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUMED] took 1711ms, via \ngateway-prd-us-east1-c-0dqv: 1.482\n|  id_created: 0\n|  session_lookup_time: 0.346\n|  session_lookup_finished: 0.028\n|  discord-sessions-prd-2-79: 0.089, replayed 14 events, new seq: 193"]
+[2023-08-11 12:15:49.490] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 12:15:49.521] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-08-11 13:02:34.583] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 13:02:38.064] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 13:02:39.570] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 13:04:55.594] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 13:04:59.064] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 13:04:59.549] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 13:16:20.964] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 13:16:25.437] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 13:16:27.167] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 13:32:08.593] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 13:32:14.170] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 13:32:19.174] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 13:32:19.174] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.65 seconds."]
+[2023-08-11 13:32:21.831] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 13:32:21.831] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 13:32:21.831] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 13:32:22.055] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 224 ms"]
+[2023-08-11 13:32:22.055] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-08-11 13:32:22.055] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 6ef20a85fabe0bd667172b461e314766, seq: 2952"]
+[2023-08-11 13:32:22.056] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-12z6: 0, heartbeat interval: 41250, took 225 ms"]
+[2023-08-11 13:32:37.189] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[INVALID_SESSION]"]
+[2023-08-11 13:32:37.189] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-08-11 13:32:37.189] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-08-11 13:32:37.189] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-08-11 13:32:42.059] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 20223ms, as c76ff135f181d6591ba55c631ed4e8d6 via \ngateway-prd-us-east1-c-12z6: 582.968\n|  id_created: 1.735\n|  session_lookup_time: 0.501\n|  session_lookup_finished: 0.024\n|  discord-sessions-prd-2-41: 564.002\n|  |  start_session: 499.29\n|  |  |  discord-api-6785cb845d-cvfls: 427.892\n|  |  |  |  get_user: 136.096\n|  |  |  |  get_guilds: 134.399\n|  |  |  |  user_settings_proto: 0.179\n|  |  |  |  relationships: 81.761\n|  |  |  |  friend_suggestion: 0.076\n|  |  |  |  connections: 0.164\n|  |  |  |  serialized_read_states: 0.008\n|  |  |  |  pending_payments: 0.001\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.001\n|  |  |  |  guild_join_requests: 0.002\n|  |  |  |  broadcaster_user_ids: 0.001\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.002\n|  |  |  |  user_segments: 0.002\n|  |  |  |  experiments: 21.471\n|  |  |  |  affine_user_ids: 22.719\n|  |  |  |  required_action: 0.009\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.329\n|  |  presence_started: 0.295\n|  |  guilds_started: 1.819\n|  |  guilds_connect: 42.178\n|  |  presence_connect: 0.002\n|  |  connect_finished: 42.252\n|  |  build_ready: 10.884\n|  |  clean_ready: 0.002\n|  |  optimize_ready: 8.616\n|  |  split_ready: 0.512"]
+[2023-08-11 13:32:42.059] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 13:32:42.116] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-08-11 13:32:42.117] [4583] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-08-11 13:32:42.117] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 435985771674206208, database: null)"]
+[2023-08-11 13:32:42.117] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (435985771674206208 → null)"]
+[2023-08-11 13:32:42.154] [4583] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-08-11 13:32:42.197] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 764173064236957790 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-11 13:32:42.211] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 125ms"]
+[2023-08-11 13:32:42.212] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-c.discord.gg"]
+[2023-08-11 13:32:42.358] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 20526ms"]
+[2023-08-11 13:32:42.358] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 13:32:43.481] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 764173064236957790 isBefore:false isAfter:false"]
+[2023-08-11 13:32:53.350] [4583] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is us-west"]
+[2023-08-11 13:34:11.316] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 13:34:14.957] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 13:34:19.961] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 13:34:19.961] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.62 seconds."]
+[2023-08-11 13:34:22.579] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 13:34:22.579] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 13:34:22.579] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 13:34:28.046] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 5464 ms"]
+[2023-08-11 13:34:28.046] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-08-11 13:34:28.047] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUME] resuming session c76ff135f181d6591ba55c631ed4e8d6, seq: 82"]
+[2023-08-11 13:34:28.047] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-58rl: 0, heartbeat interval: 41250, took 5468 ms"]
+[2023-08-11 13:34:31.914] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[INVALID_SESSION]"]
+[2023-08-11 13:34:31.914] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-08-11 13:34:31.914] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-08-11 13:34:31.914] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-08-11 13:34:34.102] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 11523ms, as def49aa6d6b3f183b92d28afb0e67a31 via \ngateway-prd-us-east1-c-58rl: 297.026\n|  id_created: 2.172\n|  session_lookup_time: 2.815\n|  session_lookup_finished: 0.025\n|  discord-sessions-prd-2-134: 274.613\n|  |  start_session: 194.459\n|  |  |  discord-api-6785cb845d-4hhn5: 179.165\n|  |  |  |  get_user: 25.915\n|  |  |  |  get_guilds: 21.09\n|  |  |  |  user_settings_proto: 0.961\n|  |  |  |  relationships: 71.6\n|  |  |  |  friend_suggestion: 0.06\n|  |  |  |  connections: 0.127\n|  |  |  |  serialized_read_states: 0.006\n|  |  |  |  pending_payments: 0.001\n|  |  |  |  send_scheduled_deletion_message: 0.001\n|  |  |  |  sanitize_premium_perks: 0.001\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 12.621\n|  |  |  |  user_segments: 0.006\n|  |  |  |  experiments: 19.781\n|  |  |  |  affine_user_ids: 0.014\n|  |  |  |  required_action: 0.003\n|  |  |  |  authorized_ip_coro: 0.001\n|  |  starting_guild_connect: 0.338\n|  |  presence_started: 0.428\n|  |  guilds_started: 1.916\n|  |  guilds_connect: 58.443\n|  |  presence_connect: 0.001\n|  |  connect_finished: 58.461\n|  |  build_ready: 12.036\n|  |  clean_ready: 0.002\n|  |  optimize_ready: 6.514\n|  |  split_ready: 0.454"]
+[2023-08-11 13:34:34.102] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 13:34:34.147] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-08-11 13:34:34.147] [4583] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-08-11 13:34:34.147] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 435985771674206208, database: null)"]
+[2023-08-11 13:34:34.147] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (435985771674206208 → null)"]
+[2023-08-11 13:34:34.178] [4583] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-08-11 13:34:34.202] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 764173064236957790 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-11 13:34:34.210] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-c.discord.gg"]
+[2023-08-11 13:34:34.339] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 11759ms"]
+[2023-08-11 13:34:34.339] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 13:34:48.626] [4583] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is us-west"]
+[2023-08-11 13:34:53.111] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 764173064236957790 isBefore:false isAfter:false"]
+[2023-08-11 13:41:21.923] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 13:41:24.593] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 13:41:28.737] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2023-08-11 13:46:01.734] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 13:46:07.223] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 13:46:12.227] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-08-11 13:46:12.227] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 1.04 seconds."]
+[2023-08-11 13:46:13.267] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-08-11 13:46:13.267] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-08-11 13:46:13.268] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-08-11 13:46:13.478] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 211 ms"]
+[2023-08-11 13:46:13.478] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-08-11 13:46:13.478] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[RESUME] resuming session def49aa6d6b3f183b92d28afb0e67a31, seq: 348"]
+[2023-08-11 13:46:13.479] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-2qdk: 0, heartbeat interval: 41250, took 212 ms"]
+[2023-08-11 13:46:16.578] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[INVALID_SESSION]"]
+[2023-08-11 13:46:16.578] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-08-11 13:46:16.578] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-08-11 13:46:16.578] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-08-11 13:46:46.404] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY] took 33133ms, as 88d5560884b2d9c0c6fd1f906d1a2e7a via \ngateway-prd-us-east1-c-2qdk: 300.205\n|  id_created: 2.661\n|  session_lookup_time: 0.507\n|  session_lookup_finished: 0.017\n|  discord-sessions-prd-2-191: 280.346\n|  |  start_session: 215.524\n|  |  |  discord-api-764d7c666c-lcb4k: 198.338\n|  |  |  |  get_user: 18.33\n|  |  |  |  get_guilds: 26.525\n|  |  |  |  user_settings_proto: 2.627\n|  |  |  |  relationships: 104.316\n|  |  |  |  friend_suggestion: 0.064\n|  |  |  |  connections: 0.131\n|  |  |  |  serialized_read_states: 0.007\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.001\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.002\n|  |  |  |  user_segments: 0.002\n|  |  |  |  experiments: 18.06\n|  |  |  |  affine_user_ids: 3.29\n|  |  |  |  required_action: 0.004\n|  |  |  |  authorized_ip_coro: 0.001\n|  |  starting_guild_connect: 0.234\n|  |  presence_started: 0.325\n|  |  guilds_started: 2.097\n|  |  guilds_connect: 40.607\n|  |  presence_connect: 0.001\n|  |  connect_finished: 40.638\n|  |  build_ready: 14.229\n|  |  clean_ready: 0.002\n|  |  optimize_ready: 6.839\n|  |  split_ready: 0.454"]
+[2023-08-11 13:46:46.404] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 13:46:46.454] [4583] (discord.cpp:666): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-08-11 13:46:46.454] [4583] (discord.cpp:666): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-08-11 13:46:46.455] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","removing database (user: 435985771674206208, database: null)"]
+[2023-08-11 13:46:46.455] [4583] (discord.cpp:666): JS console: ["%c[DatabaseManager]","added database (435985771674206208 → null)"]
+[2023-08-11 13:46:46.491] [4583] (discord.cpp:666): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-08-11 13:46:46.528] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetching messages for 764173064236957790 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-08-11 13:46:46.541] [4583] (discord.cpp:666): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 117ms"]
+[2023-08-11 13:46:46.542] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-c.discord.gg"]
+[2023-08-11 13:46:46.579] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 33311ms"]
+[2023-08-11 13:46:46.579] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-08-11 13:46:47.812] [4583] (discord.cpp:666): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 764173064236957790 isBefore:false isAfter:false"]
+[2023-08-11 13:47:25.155] [4583] (discord.cpp:666): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is us-west"]
+[2023-08-11 13:48:59.127] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-08-11 13:49:03.556] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2023-08-11 13:49:04.989] [4583] (discord.cpp:666): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]

@@ -1,20 +1,28 @@
+AppData
 ArchLinux
 Archiso
 Archwiki
+Deinstitutionalization
 IWD
+LocalLow
 Pacman
+ProgramData
 Systemd
 applicationname
 backend
 backends
+collectivistic
 eg
+epidemiologic
 idk
 iwd
 networkmanager
 pacman
+stereotypically
 systemctl
 systemd
 touchpad
+untrusted
 wlan
 wpa
-checksum_v1 = be258f377037069939fb2c6c5102e8fb
+checksum_v1 = 2109961bdc13e1a2297d127c14d20a7a

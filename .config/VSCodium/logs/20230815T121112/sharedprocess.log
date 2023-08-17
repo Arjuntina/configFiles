@@ -1,0 +1,76 @@
+2023-08-15 12:11:14.165 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc-icons /home/arjuntina/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.26.0-universal
+2023-08-15 12:11:23.579 [info] Uninstalling extension from the profile: whizkydee.material-palenight-theme@2.0.2 vscode-userdata:/home/arjuntina/.vscode-oss/extensions/extensions.json
+2023-08-15 12:11:23.601 [info] Marked extension as uninstalled whizkydee.material-palenight-theme-2.0.2-universal
+2023-08-15 12:11:23.700 [info] Successfully uninstalled extension from the profile whizkydee.material-palenight-theme@2.0.2 vscode-userdata:/home/arjuntina/.vscode-oss/extensions/extensions.json
+2023-08-15 12:11:25.955 [info] Uninstalling extension from the profile: vscodevim.vim@1.25.2 vscode-userdata:/home/arjuntina/.vscode-oss/extensions/extensions.json
+2023-08-15 12:11:25.968 [info] Marked extension as uninstalled vscodevim.vim-1.25.2-universal
+2023-08-15 12:11:26.068 [info] Successfully uninstalled extension from the profile vscodevim.vim@1.25.2 vscode-userdata:/home/arjuntina/.vscode-oss/extensions/extensions.json
+2023-08-15 12:11:52.723 [info] Getting Manifest... shan.code-settings-sync
+2023-08-15 12:11:53.019 [info] Installing extension: shan.code-settings-sync
+2023-08-15 12:11:56.189 [info] Extension signature verification is not done: shan.code-settings-sync
+2023-08-15 12:11:56.292 [info] Extracted extension to file:///home/arjuntina/.vscode-oss/extensions/shan.code-settings-sync-3.4.3-universal: shan.code-settings-sync
+2023-08-15 12:11:56.295 [info] Renamed to /home/arjuntina/.vscode-oss/extensions/shan.code-settings-sync-3.4.3-universal
+2023-08-15 12:11:56.299 [info] Extracting extension completed. shan.code-settings-sync
+2023-08-15 12:11:56.308 [info] Extension installed successfully: shan.code-settings-sync
+2023-08-15 12:14:50.952 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2023-08-15 12:14:51.537 [info] Installing extension: catppuccin.catppuccin-vsc-icons
+2023-08-15 12:14:51.849 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc-icons
+2023-08-15 12:14:52.567 [info] Extracted extension to file:///home/arjuntina/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.26.0-universal: catppuccin.catppuccin-vsc-icons
+2023-08-15 12:14:52.574 [info] Renamed to /home/arjuntina/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.26.0-universal
+2023-08-15 12:14:52.575 [info] Extracting extension completed. catppuccin.catppuccin-vsc-icons
+2023-08-15 12:14:52.582 [info] Extension installed successfully: catppuccin.catppuccin-vsc-icons
+2023-08-15 12:14:53.711 [info] Getting Manifest... haskell.haskell
+2023-08-15 12:14:53.801 [info] Installing extension: haskell.haskell
+2023-08-15 12:14:53.982 [info] Getting Manifest... justusadam.language-haskell
+2023-08-15 12:14:54.372 [info] Installing extension: justusadam.language-haskell haskell.haskell
+2023-08-15 12:14:59.104 [info] Extension signature verification is not done: justusadam.language-haskell
+2023-08-15 12:14:59.130 [info] Extracted extension to file:///home/arjuntina/.vscode-oss/extensions/justusadam.language-haskell-3.6.0-universal: justusadam.language-haskell
+2023-08-15 12:14:59.133 [info] Renamed to /home/arjuntina/.vscode-oss/extensions/justusadam.language-haskell-3.6.0-universal
+2023-08-15 12:14:59.134 [info] Extracting extension completed. justusadam.language-haskell
+2023-08-15 12:15:00.322 [info] Extension signature verification is not done: haskell.haskell
+2023-08-15 12:15:00.338 [info] Extracted extension to file:///home/arjuntina/.vscode-oss/extensions/haskell.haskell-2.4.1-universal: haskell.haskell
+2023-08-15 12:15:00.341 [info] Renamed to /home/arjuntina/.vscode-oss/extensions/haskell.haskell-2.4.1-universal
+2023-08-15 12:15:00.342 [info] Extracting extension completed. haskell.haskell
+2023-08-15 12:15:00.347 [info] Extension installed successfully: justusadam.language-haskell
+2023-08-15 12:15:00.348 [info] Extension installed successfully: haskell.haskell
+2023-08-15 12:15:00.798 [info] Getting Manifest... justusadam.language-haskell
+2023-08-15 12:15:00.811 [info] Installing extension: justusadam.language-haskell
+2023-08-15 12:15:00.983 [info] Extension installed successfully: justusadam.language-haskell
+2023-08-15 12:15:01.700 [info] Getting Manifest... ritwickdey.liveserver
+2023-08-15 12:15:01.796 [info] Installing extension: ritwickdey.liveserver
+2023-08-15 12:15:24.745 [info] Extension signature verification is not done: ritwickdey.liveserver
+2023-08-15 12:15:26.639 [info] Extracted extension to file:///home/arjuntina/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal: ritwickdey.liveserver
+2023-08-15 12:15:26.650 [info] Renamed to /home/arjuntina/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal
+2023-08-15 12:15:26.651 [info] Extracting extension completed. ritwickdey.liveserver
+2023-08-15 12:15:26.657 [info] Extension installed successfully: ritwickdey.liveserver
+2023-08-15 12:15:27.600 [info] Getting Manifest... whizkydee.material-palenight-theme
+2023-08-15 12:15:27.879 [info] Installing extension: whizkydee.material-palenight-theme
+2023-08-15 12:15:28.183 [info] Extension signature verification is not done: whizkydee.material-palenight-theme
+2023-08-15 12:15:28.188 [info] Removed the extension from uninstalled list: whizkydee.material-palenight-theme
+2023-08-15 12:15:28.200 [info] Extension installed successfully: whizkydee.material-palenight-theme
+2023-08-15 12:15:29.341 [info] Getting Manifest... pkief.material-product-icons
+2023-08-15 12:15:29.654 [info] Installing extension: pkief.material-product-icons
+2023-08-15 12:15:30.595 [info] Extension signature verification is not done: pkief.material-product-icons
+2023-08-15 12:15:30.608 [info] Extracted extension to file:///home/arjuntina/.vscode-oss/extensions/pkief.material-product-icons-1.6.0-universal: pkief.material-product-icons
+2023-08-15 12:15:30.611 [info] Renamed to /home/arjuntina/.vscode-oss/extensions/pkief.material-product-icons-1.6.0-universal
+2023-08-15 12:15:30.612 [info] Extracting extension completed. pkief.material-product-icons
+2023-08-15 12:15:30.618 [info] Extension installed successfully: pkief.material-product-icons
+2023-08-15 12:15:32.109 [info] Getting Manifest... ms-vscode.powershell
+2023-08-15 12:15:32.220 [info] Installing extension: ms-vscode.powershell
+2023-08-15 12:16:39.399 [info] Extension signature verification is not done: ms-vscode.powershell
+2023-08-15 12:16:40.793 [info] Extracted extension to file:///home/arjuntina/.vscode-oss/extensions/ms-vscode.powershell-2023.6.0-universal: ms-vscode.powershell
+2023-08-15 12:16:40.801 [info] Renamed to /home/arjuntina/.vscode-oss/extensions/ms-vscode.powershell-2023.6.0-universal
+2023-08-15 12:16:40.803 [info] Extracting extension completed. ms-vscode.powershell
+2023-08-15 12:16:40.810 [info] Extension installed successfully: ms-vscode.powershell
+2023-08-15 12:16:41.617 [info] Getting Manifest... vscodevim.vim
+2023-08-15 12:16:41.716 [info] Installing extension: vscodevim.vim
+2023-08-15 12:16:42.343 [info] Extension signature verification is not done: vscodevim.vim
+2023-08-15 12:16:42.348 [info] Removed the extension from uninstalled list: vscodevim.vim
+2023-08-15 12:16:42.362 [info] Extension installed successfully: vscodevim.vim
+2023-08-15 12:16:43.380 [info] Getting Manifest... ecmel.vscode-html-css
+2023-08-15 12:16:43.488 [info] Installing extension: ecmel.vscode-html-css
+2023-08-15 12:16:44.926 [info] Extension signature verification is not done: ecmel.vscode-html-css
+2023-08-15 12:16:44.941 [info] Extracted extension to file:///home/arjuntina/.vscode-oss/extensions/ecmel.vscode-html-css-1.13.1-universal: ecmel.vscode-html-css
+2023-08-15 12:16:44.943 [info] Renamed to /home/arjuntina/.vscode-oss/extensions/ecmel.vscode-html-css-1.13.1-universal
+2023-08-15 12:16:44.944 [info] Extracting extension completed. ecmel.vscode-html-css
+2023-08-15 12:16:44.950 [info] Extension installed successfully: ecmel.vscode-html-css

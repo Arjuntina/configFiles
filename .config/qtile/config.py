@@ -120,8 +120,8 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="Adobe Utopia",
-    fontsize=12,
+    font="Khula",
+    fontsize=14,
     padding=3,
 )
 extension_defaults = widget_defaults.copy()
@@ -135,9 +135,11 @@ screens = [
                 widget.Prompt(),
                 widget.WindowName(),
                 widget.Systray(),
-                widget.Battery(),
-                widget.Spacer(length=10),
-                widget.Clock(format="%H:%M %m/%d/%y", background="7e009ac5"),
+                widget.Backlight(backlight_name='intel_backlight', format='scr bri {percent:2.0%}'),
+                widget.Spacer(length=7),
+                widget.Battery(format=' {char} {percent:2.0%} {hour:d}:{min:02d} ', low_percentage=0.25, low_background="f60011c5", background="0b5e21c5", mouse_callbacks={"Button1": lazy.spawn("alacritty -e pulsemixer")}),
+                widget.Spacer(length=7),
+                widget.Clock(format="%H:%M %m/%d/%y", background="7e009ac5", font='Fira Code', fontsize=13, padding=5),
             ],
             24,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
