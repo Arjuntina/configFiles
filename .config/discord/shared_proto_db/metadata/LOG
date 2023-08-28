@@ -1,2 +1,3 @@
-2023/08/11-09:59:36.938 1160 Creating DB /home/arjuntina/.config/discord/shared_proto_db/metadata since it was missing.
-2023/08/11-09:59:36.942 1160 Reusing MANIFEST /home/arjuntina/.config/discord/shared_proto_db/metadata/MANIFEST-000001
+2023/08/27-20:45:38.214 14fa Reusing MANIFEST /home/arjuntina/.config/discord/shared_proto_db/metadata/MANIFEST-000001
+2023/08/27-20:45:38.214 14fa Recovering log #3
+2023/08/27-20:45:38.214 14fa Reusing old log /home/arjuntina/.config/discord/shared_proto_db/metadata/000003.log 

@@ -1,3 +1,6 @@
-2023/08/17-09:16:24.977 3cb Reusing MANIFEST /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/17-09:16:24.978 3cb Recovering log #88
-2023/08/17-09:16:24.990 3cb Reusing old log /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000088.log 
+2023/08/22-15:51:39.550 362 Reusing MANIFEST /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/22-15:51:39.550 362 Recovering log #88
+2023/08/22-15:51:39.585 362 Reusing old log /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000088.log 
+2023/08/22-15:51:40.359 3d2 Level-0 table #93: started
+2023/08/22-15:51:40.379 3d2 Level-0 table #93: 1658831 bytes OK
+2023/08/22-15:51:40.381 3d2 Delete type=0 #88

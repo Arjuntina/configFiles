@@ -117,7 +117,9 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1" />
+         usecurrent="1"
+         width="47.1418401763194"
+         height="33.5246469092166" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -631,7 +633,8 @@
        ask="1"
        ask_svg="1"
        link="link"
-       scale="optimizeSpeed" />
+       scale="auto"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -686,7 +689,8 @@
   </group>
   <group
      id="options"
-     rotationlock="1">
+     rotationlock="1"
+     onungroup="0">
     <group
        id="renderingcache"
        size="512" />
@@ -859,7 +863,8 @@
     <group
        id="maskobject"
        topmost="1"
-       remove="1" />
+       remove="1"
+       grouping="0" />
     <group
        id="blurquality"
        value="0" />
@@ -964,7 +969,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#7e009a;-inkscape-font-specification:'FreeMono, Normal';font-family:FreeMono;font-size:5.33333333px;fill-opacity:0.77231032">
+     style="fill:#ce8f00;-inkscape-font-specification:'FreeMono, Normal';font-family:FreeMono;font-size:5.33333333px">
     <group
        width="640"
        height="480"

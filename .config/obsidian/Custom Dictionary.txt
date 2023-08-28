@@ -14,6 +14,7 @@ backends
 collectivistic
 eg
 epidemiologic
+fc
 idk
 iwd
 networkmanager
@@ -23,6 +24,7 @@ systemctl
 systemd
 touchpad
 untrusted
+usr
 wlan
 wpa
-checksum_v1 = 2109961bdc13e1a2297d127c14d20a7a
+checksum_v1 = 60de3d18aade28dc09b0caf7f5b91d4c

@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-image" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="gimp-brush-clipboard-image" checksum="949a8437a8dd23be3cc263b46aac276d">
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-mask" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="gimp-brush-clipboard-mask" checksum="61db4b57d6346b4ec74a1a6ed638da1a">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -772,7 +772,7 @@
   <resource identifier="${mypaint_brushes_dir}/ramon/wet_round.myb" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="gimp-pattern-clipboard-image" checksum="eff9598f9f61c1dc78d842f1798c2ab8">
+  <resource identifier="gimp-pattern-clipboard-image" checksum="14c3b61774289aeb263d185ca4f2413a">
   </resource>
 
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">
@@ -1444,19 +1444,22 @@
   <resource identifier="DEC Terminal Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Fira Code" checksum="(null)">
+  <resource identifier="FiraCode Nerd Font Mono" checksum="(null)">
   </resource>
 
-  <resource identifier="Fira Code Bold" checksum="(null)">
+  <resource identifier="FiraCode Nerd Font Mono Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Fira Code Light" checksum="(null)">
+  <resource identifier="FiraCode Nerd Font Mono Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Fira Code Medium" checksum="(null)">
+  <resource identifier="FiraCode Nerd Font Mono Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Fira Code weight=450" checksum="(null)">
+  <resource identifier="FiraCode Nerd Font Mono Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FiraCode Nerd Font Mono weight=450" checksum="(null)">
   </resource>
 
   <resource identifier="FreeMono" checksum="(null)">
@@ -1496,18 +1499,6 @@
   </resource>
 
   <resource identifier="Khula" checksum="(null)">
-  </resource>
-
-  <resource identifier="Khula Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Khula Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Khula Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Khula Ultra-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Liberation Mono" checksum="(null)">
@@ -1616,6 +1607,9 @@
   </resource>
 
   <resource identifier="P052 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="RobotoMono Nerd Font Mono" checksum="(null)">
   </resource>
 
   <resource identifier="Sans-serif" checksum="(null)">
@@ -1733,6 +1727,9 @@
   </resource>
 
   <resource identifier="Standard Symbols PS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman," checksum="(null)">
   </resource>
 
   <resource identifier="URW Bookman Light" checksum="(null)">

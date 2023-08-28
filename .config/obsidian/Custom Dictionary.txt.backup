@@ -6,6 +6,7 @@ Deinstitutionalization
 IWD
 LocalLow
 Pacman
+ProgramData
 Systemd
 applicationname
 backend
@@ -22,6 +23,7 @@ systemctl
 systemd
 touchpad
 untrusted
+usr
 wlan
 wpa
-checksum_v1 = 7f11868d134f84e2dbe1333a498f577f
+checksum_v1 = 23cf70dc4667c7948bce7c9bfcb748c5

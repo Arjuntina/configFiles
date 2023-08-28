@@ -1,8 +1,0 @@
-# GIMP action-history
-
-(history-item "plug-in-screenshot" 2)
-(history-item "file-quit" 1)
-(history-item "edit-clear" 0)
-(history-item "edit-copy" 1)
-
-# end of action-history

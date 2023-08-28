@@ -687,3 +687,287 @@
 2023-08-11T19:59:36.068Z [Modules] Host is up to date.
 2023-08-11T19:59:36.068Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 2023-08-11T19:59:36.101Z [Modules] No module updates available.
+2023-08-20T13:55:12.641Z [Modules] Modules initializing
+2023-08-20T13:55:12.643Z [Modules] Distribution: remote
+2023-08-20T13:55:12.643Z [Modules] Host updates: enabled
+2023-08-20T13:55:12.644Z [Modules] Module updates: enabled
+2023-08-20T13:55:12.644Z [Modules] Module install path: /home/arjuntina/.config/discord/0.0.28/modules
+2023-08-20T13:55:12.644Z [Modules] Module installed file path: /home/arjuntina/.config/discord/0.0.28/modules/installed.json
+2023-08-20T13:55:12.644Z [Modules] Module download path: /home/arjuntina/.config/discord/0.0.28/modules/pending
+2023-08-20T13:55:12.933Z [Modules] No updates to install
+2023-08-20T13:55:12.933Z [Modules] Checking for host updates.
+2023-08-20T13:55:13.162Z [Modules] Host is up to date.
+2023-08-20T13:55:13.164Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-20T13:55:13.317Z [Modules] Module update available: discord_voice@3 [installed: 2]
+2023-08-20T13:55:13.319Z [Modules] Fetching discord_voice@3 from https://discord.com/api/modules/stable/discord_voice/3
+2023-08-20T13:55:13.319Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip
+2023-08-20T13:55:13.619Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 1%
+2023-08-20T13:55:13.714Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 2%
+2023-08-20T13:55:13.801Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 3%
+2023-08-20T13:55:13.906Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 4%
+2023-08-20T13:55:14.053Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 5%
+2023-08-20T13:55:14.129Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 6%
+2023-08-20T13:55:14.213Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 7%
+2023-08-20T13:55:14.336Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 8%
+2023-08-20T13:55:14.429Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 9%
+2023-08-20T13:55:14.534Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 10%
+2023-08-20T13:55:14.619Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 11%
+2023-08-20T13:55:14.738Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 12%
+2023-08-20T13:55:14.834Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 13%
+2023-08-20T13:55:14.938Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 14%
+2023-08-20T13:55:15.033Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 15%
+2023-08-20T13:55:15.144Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 16%
+2023-08-20T13:55:15.240Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 17%
+2023-08-20T13:55:15.335Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 18%
+2023-08-20T13:55:15.437Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 19%
+2023-08-20T13:55:15.523Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 20%
+2023-08-20T13:55:15.605Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 21%
+2023-08-20T13:55:15.670Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 22%
+2023-08-20T13:55:15.749Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 23%
+2023-08-20T13:55:15.829Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 24%
+2023-08-20T13:55:15.910Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 25%
+2023-08-20T13:55:16.015Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 26%
+2023-08-20T13:55:16.116Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 27%
+2023-08-20T13:55:16.218Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 28%
+2023-08-20T13:55:16.320Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 29%
+2023-08-20T13:55:16.460Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 30%
+2023-08-20T13:55:16.546Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 31%
+2023-08-20T13:55:16.664Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 32%
+2023-08-20T13:55:16.746Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 33%
+2023-08-20T13:55:16.848Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 34%
+2023-08-20T13:55:16.972Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 35%
+2023-08-20T13:55:17.066Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 36%
+2023-08-20T13:55:17.167Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 37%
+2023-08-20T13:55:17.278Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 38%
+2023-08-20T13:55:17.384Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 39%
+2023-08-20T13:55:17.480Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 40%
+2023-08-20T13:55:17.568Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 41%
+2023-08-20T13:55:17.683Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 42%
+2023-08-20T13:55:17.779Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 43%
+2023-08-20T13:55:17.878Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 44%
+2023-08-20T13:55:17.986Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 45%
+2023-08-20T13:55:18.118Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 46%
+2023-08-20T13:55:18.225Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 47%
+2023-08-20T13:55:18.321Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 48%
+2023-08-20T13:55:18.455Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 49%
+2023-08-20T13:55:18.527Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 50%
+2023-08-20T13:55:18.610Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 51%
+2023-08-20T13:55:18.734Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 52%
+2023-08-20T13:55:18.789Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 53%
+2023-08-20T13:55:18.901Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 54%
+2023-08-20T13:55:19.016Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 55%
+2023-08-20T13:55:19.082Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 56%
+2023-08-20T13:55:19.165Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 57%
+2023-08-20T13:55:19.353Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 58%
+2023-08-20T13:55:19.534Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 59%
+2023-08-20T13:55:19.636Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 60%
+2023-08-20T13:55:19.736Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 61%
+2023-08-20T13:55:19.842Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 62%
+2023-08-20T13:55:19.937Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 63%
+2023-08-20T13:55:20.050Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 64%
+2023-08-20T13:55:20.411Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 65%
+2023-08-20T13:55:20.412Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 66%
+2023-08-20T13:55:20.536Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 67%
+2023-08-20T13:55:20.669Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 68%
+2023-08-20T13:55:20.811Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 69%
+2023-08-20T13:55:20.957Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 70%
+2023-08-20T13:55:21.099Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 71%
+2023-08-20T13:55:21.294Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 72%
+2023-08-20T13:55:21.437Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 73%
+2023-08-20T13:55:21.570Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 74%
+2023-08-20T13:55:21.662Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 75%
+2023-08-20T13:55:21.780Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 76%
+2023-08-20T13:55:21.919Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 77%
+2023-08-20T13:55:22.039Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 78%
+2023-08-20T13:55:22.184Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 79%
+2023-08-20T13:55:22.286Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 80%
+2023-08-20T13:55:22.424Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 81%
+2023-08-20T13:55:22.559Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 82%
+2023-08-20T13:55:22.743Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 83%
+2023-08-20T13:55:23.006Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 84%
+2023-08-20T13:55:23.318Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 85%
+2023-08-20T13:55:23.536Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 86%
+2023-08-20T13:55:23.669Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 87%
+2023-08-20T13:55:23.793Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 88%
+2023-08-20T13:55:23.908Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 89%
+2023-08-20T13:55:24.292Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 90%
+2023-08-20T13:55:24.340Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 91%
+2023-08-20T13:55:24.435Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 92%
+2023-08-20T13:55:24.540Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 93%
+2023-08-20T13:55:24.782Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 94%
+2023-08-20T13:55:25.020Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 95%
+2023-08-20T13:55:25.496Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 96%
+2023-08-20T13:55:25.497Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 97%
+2023-08-20T13:55:25.664Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 98%
+2023-08-20T13:55:25.796Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 99%
+2023-08-20T13:55:25.897Z [Modules] Streaming discord_voice@3 to /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 100%
+2023-08-20T13:55:25.901Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2023-08-20T13:55:25.902Z [Modules] Installing updates...
+2023-08-20T13:55:25.903Z [Modules] Installing discord_voice@3 from /home/arjuntina/.config/discord/0.0.28/modules/pending/discord_voice-3.zip
+2023-08-20T13:55:26.620Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-08-20T13:55:26.620Z [Modules] Checking for host updates.
+2023-08-20T13:55:26.774Z [Modules] Host is up to date.
+2023-08-20T13:55:26.775Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-20T13:55:26.782Z [Modules] No module updates available.
+2023-08-20T13:55:32.699Z [Modules] Checking for host updates.
+2023-08-20T13:55:32.759Z [Modules] Host is up to date.
+2023-08-20T13:55:32.759Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-20T13:55:32.762Z [Modules] No module updates available.
+2023-08-22T05:54:48.435Z [Modules] Modules initializing
+2023-08-22T05:54:48.437Z [Modules] Distribution: remote
+2023-08-22T05:54:48.437Z [Modules] Host updates: enabled
+2023-08-22T05:54:48.437Z [Modules] Module updates: enabled
+2023-08-22T05:54:48.437Z [Modules] Module install path: /home/arjuntina/.config/discord/0.0.28/modules
+2023-08-22T05:54:48.437Z [Modules] Module installed file path: /home/arjuntina/.config/discord/0.0.28/modules/installed.json
+2023-08-22T05:54:48.438Z [Modules] Module download path: /home/arjuntina/.config/discord/0.0.28/modules/pending
+2023-08-22T05:54:48.715Z [Modules] No updates to install
+2023-08-22T05:54:48.715Z [Modules] Checking for host updates.
+2023-08-22T05:54:48.991Z [Modules] Host is up to date.
+2023-08-22T05:54:48.992Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T05:54:49.114Z [Modules] No module updates available.
+2023-08-22T05:54:59.576Z [Modules] Checking for host updates.
+2023-08-22T05:54:59.683Z [Modules] Host is up to date.
+2023-08-22T05:54:59.683Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T05:54:59.685Z [Modules] No module updates available.
+2023-08-22T06:54:59.581Z [Modules] Checking for host updates.
+2023-08-22T06:54:59.718Z [Modules] Host is up to date.
+2023-08-22T06:54:59.718Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T06:54:59.758Z [Modules] No module updates available.
+2023-08-22T07:54:59.577Z [Modules] Checking for host updates.
+2023-08-22T07:54:59.774Z [Modules] Host is up to date.
+2023-08-22T07:54:59.774Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T07:54:59.806Z [Modules] No module updates available.
+2023-08-22T08:54:59.581Z [Modules] Checking for host updates.
+2023-08-22T08:55:00.123Z [Modules] Host is up to date.
+2023-08-22T08:55:00.123Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T08:55:00.274Z [Modules] No module updates available.
+2023-08-22T09:54:59.577Z [Modules] Checking for host updates.
+2023-08-22T09:54:59.743Z [Modules] Host is up to date.
+2023-08-22T09:54:59.743Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T09:54:59.775Z [Modules] No module updates available.
+2023-08-22T10:54:59.577Z [Modules] Checking for host updates.
+2023-08-22T10:54:59.785Z [Modules] Host is up to date.
+2023-08-22T10:54:59.786Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T10:54:59.821Z [Modules] No module updates available.
+2023-08-22T11:54:59.577Z [Modules] Checking for host updates.
+2023-08-22T11:54:59.733Z [Modules] Host is up to date.
+2023-08-22T11:54:59.733Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T11:54:59.766Z [Modules] No module updates available.
+2023-08-22T12:54:59.577Z [Modules] Checking for host updates.
+2023-08-22T12:54:59.735Z [Modules] Host is up to date.
+2023-08-22T12:54:59.735Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T12:54:59.760Z [Modules] No module updates available.
+2023-08-22T13:54:59.580Z [Modules] Checking for host updates.
+2023-08-22T13:54:59.747Z [Modules] Host is up to date.
+2023-08-22T13:54:59.747Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T13:54:59.781Z [Modules] No module updates available.
+2023-08-22T14:54:59.577Z [Modules] Checking for host updates.
+2023-08-22T14:54:59.739Z [Modules] Host is up to date.
+2023-08-22T14:54:59.739Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T14:54:59.775Z [Modules] No module updates available.
+2023-08-22T23:08:11.517Z [Modules] Modules initializing
+2023-08-22T23:08:11.519Z [Modules] Distribution: remote
+2023-08-22T23:08:11.519Z [Modules] Host updates: enabled
+2023-08-22T23:08:11.519Z [Modules] Module updates: enabled
+2023-08-22T23:08:11.519Z [Modules] Module install path: /home/arjuntina/.config/discord/0.0.28/modules
+2023-08-22T23:08:11.519Z [Modules] Module installed file path: /home/arjuntina/.config/discord/0.0.28/modules/installed.json
+2023-08-22T23:08:11.520Z [Modules] Module download path: /home/arjuntina/.config/discord/0.0.28/modules/pending
+2023-08-22T23:08:11.771Z [Modules] No updates to install
+2023-08-22T23:08:11.772Z [Modules] Checking for host updates.
+2023-08-22T23:08:11.810Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-08-22T23:08:21.815Z [Modules] Checking for host updates.
+2023-08-22T23:08:21.819Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-08-22T23:08:30.883Z [Modules] Modules initializing
+2023-08-22T23:08:30.883Z [Modules] Distribution: remote
+2023-08-22T23:08:30.883Z [Modules] Host updates: enabled
+2023-08-22T23:08:30.883Z [Modules] Module updates: enabled
+2023-08-22T23:08:30.884Z [Modules] Module install path: /home/arjuntina/.config/discord/0.0.28/modules
+2023-08-22T23:08:30.884Z [Modules] Module installed file path: /home/arjuntina/.config/discord/0.0.28/modules/installed.json
+2023-08-22T23:08:30.884Z [Modules] Module download path: /home/arjuntina/.config/discord/0.0.28/modules/pending
+2023-08-22T23:08:31.027Z [Modules] No updates to install
+2023-08-22T23:08:31.028Z [Modules] Checking for host updates.
+2023-08-22T23:08:36.295Z [Modules] Host is up to date.
+2023-08-22T23:08:36.295Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T23:08:36.428Z [Modules] No module updates available.
+2023-08-22T23:08:46.750Z [Modules] Checking for host updates.
+2023-08-22T23:08:46.862Z [Modules] Host is up to date.
+2023-08-22T23:08:46.862Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-22T23:08:46.864Z [Modules] No module updates available.
+2023-08-26T20:25:02.265Z [Modules] Modules initializing
+2023-08-26T20:25:02.267Z [Modules] Distribution: remote
+2023-08-26T20:25:02.267Z [Modules] Host updates: enabled
+2023-08-26T20:25:02.267Z [Modules] Module updates: enabled
+2023-08-26T20:25:02.268Z [Modules] Module install path: /home/arjuntina/.config/discord/0.0.28/modules
+2023-08-26T20:25:02.268Z [Modules] Module installed file path: /home/arjuntina/.config/discord/0.0.28/modules/installed.json
+2023-08-26T20:25:02.268Z [Modules] Module download path: /home/arjuntina/.config/discord/0.0.28/modules/pending
+2023-08-26T20:25:02.554Z [Modules] No updates to install
+2023-08-26T20:25:02.555Z [Modules] Checking for host updates.
+2023-08-26T20:25:02.834Z [Modules] Host is up to date.
+2023-08-26T20:25:02.835Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-26T20:25:02.994Z [Modules] No module updates available.
+2023-08-26T20:25:25.750Z [Modules] Checking for host updates.
+2023-08-26T20:25:25.862Z [Modules] Host is up to date.
+2023-08-26T20:25:25.862Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-26T20:25:25.864Z [Modules] No module updates available.
+2023-08-26T21:25:25.755Z [Modules] Checking for host updates.
+2023-08-26T21:25:25.923Z [Modules] Host is up to date.
+2023-08-26T21:25:25.923Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-26T21:25:26.043Z [Modules] No module updates available.
+2023-08-26T22:25:25.755Z [Modules] Checking for host updates.
+2023-08-26T22:25:26.012Z [Modules] Host is up to date.
+2023-08-26T22:25:26.012Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-26T22:25:26.138Z [Modules] No module updates available.
+2023-08-26T23:25:25.755Z [Modules] Checking for host updates.
+2023-08-26T23:25:25.930Z [Modules] Host is up to date.
+2023-08-26T23:25:25.931Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-26T23:25:26.051Z [Modules] No module updates available.
+2023-08-27T00:25:25.755Z [Modules] Checking for host updates.
+2023-08-27T00:25:26.128Z [Modules] Host is up to date.
+2023-08-27T00:25:26.128Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-27T00:25:26.264Z [Modules] No module updates available.
+2023-08-27T01:25:25.754Z [Modules] Checking for host updates.
+2023-08-27T01:25:25.805Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-08-27T02:25:25.751Z [Modules] Checking for host updates.
+2023-08-27T02:25:25.762Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-08-27T03:25:25.751Z [Modules] Checking for host updates.
+2023-08-27T03:25:25.761Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-08-27T04:25:25.751Z [Modules] Checking for host updates.
+2023-08-27T04:25:25.760Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-08-27T05:25:25.751Z [Modules] Checking for host updates.
+2023-08-27T05:25:25.760Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-08-28T02:44:16.603Z [Modules] Modules initializing
+2023-08-28T02:44:16.604Z [Modules] Distribution: remote
+2023-08-28T02:44:16.605Z [Modules] Host updates: enabled
+2023-08-28T02:44:16.605Z [Modules] Module updates: enabled
+2023-08-28T02:44:16.605Z [Modules] Module install path: /home/arjuntina/.config/discord/0.0.28/modules
+2023-08-28T02:44:16.605Z [Modules] Module installed file path: /home/arjuntina/.config/discord/0.0.28/modules/installed.json
+2023-08-28T02:44:16.605Z [Modules] Module download path: /home/arjuntina/.config/discord/0.0.28/modules/pending
+2023-08-28T02:44:16.911Z [Modules] No updates to install
+2023-08-28T02:44:16.912Z [Modules] Checking for host updates.
+2023-08-28T02:44:18.337Z [Modules] Host is up to date.
+2023-08-28T02:44:18.337Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-28T02:44:18.741Z [Modules] No module updates available.
+2023-08-28T02:44:21.474Z [Modules] Checking for host updates.
+2023-08-28T02:44:21.591Z [Modules] Host is up to date.
+2023-08-28T02:44:21.591Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-28T02:44:21.593Z [Modules] No module updates available.
+2023-08-28T03:36:01.705Z [Modules] Modules initializing
+2023-08-28T03:36:01.706Z [Modules] Distribution: remote
+2023-08-28T03:36:01.706Z [Modules] Host updates: enabled
+2023-08-28T03:36:01.706Z [Modules] Module updates: enabled
+2023-08-28T03:36:01.706Z [Modules] Module install path: /home/arjuntina/.config/discord/0.0.28/modules
+2023-08-28T03:36:01.706Z [Modules] Module installed file path: /home/arjuntina/.config/discord/0.0.28/modules/installed.json
+2023-08-28T03:36:01.706Z [Modules] Module download path: /home/arjuntina/.config/discord/0.0.28/modules/pending
+2023-08-28T03:36:01.847Z [Modules] No updates to install
+2023-08-28T03:36:01.848Z [Modules] Checking for host updates.
+2023-08-28T03:36:02.088Z [Modules] Host is up to date.
+2023-08-28T03:36:02.089Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-28T03:36:02.126Z [Modules] No module updates available.
+2023-08-28T03:36:05.836Z [Modules] Checking for host updates.
+2023-08-28T03:36:06.158Z [Modules] Host is up to date.
+2023-08-28T03:36:06.158Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-28T03:36:06.167Z [Modules] No module updates available.
+2023-08-28T04:36:05.837Z [Modules] Checking for host updates.
+2023-08-28T04:36:06.023Z [Modules] Host is up to date.
+2023-08-28T04:36:06.024Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-28T04:36:06.055Z [Modules] No module updates available.

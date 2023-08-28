@@ -1,0 +1,30 @@
+2023-08-23 07:15:48.651 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'quickPickItemIcon' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-23 07:15:52.394 [info] [perf] Render performance baseline is 45ms
+2023-08-23 07:17:02.294 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'quickPickItemIcon' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-23 07:17:05.942 [info] [perf] Render performance baseline is 38ms
+2023-08-23 07:17:27.441 [error] [Extension Host] Wed, 23 Aug 2023 14:17:27 GMT express deprecated req.param(name): Use req.params, req.body, or req.query instead at <anonymous>:null:null
+2023-08-23 07:17:35.598 [error] [Extension Host] Sync: Result content is not a valid JSON. Unexpected end of JSON input 
+2023-08-23 07:18:17.389 [error] Cannot read properties of undefined (reading 'layout'): TypeError: Cannot read properties of undefined (reading 'layout')
+    at se.layoutBody (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2284:13028)
+    at r.value (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2284:9008)
+    at u._deliver (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:69:2465)
+    at u.fire (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:69:2784)
+    at i.update (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1129:75046)
+    at se.renderBody (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2284:9159)
+    at se.render (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:207:78068)
+    at se.render (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1652:17049)
+    at se.render (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2284:8348)
+    at i.onDidAddViewDescriptors (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2509:50515)
+    at i.create (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2509:46719)
+    at i.create (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2535:10595)
+    at M.create (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2509:71261)
+    at Td.showComposite (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1652:7480)
+    at Td.doOpenComposite (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1652:6130)
+    at Td.openComposite (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1652:5683)
+    at Td.doOpenViewlet (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2516:21498)
+    at Td.openPaneComposite (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2516:20857)
+    at wd.run (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2328:21323)
+    at T.runAction (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:127:28026)
+    at T.run (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:127:27929)
+    at tr.onClick (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:225:15896)
+    at HTMLLIElement.<anonymous> (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:225:15452)

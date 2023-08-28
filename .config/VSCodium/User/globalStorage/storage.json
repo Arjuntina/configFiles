@@ -2,7 +2,8 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/arjuntina/Files/BU/Classes/Psychology/psychTextbook": "__default__profile__"
+            "file:///home/arjuntina/Files/BU/Classes/Psychology/psychTextbook": "__default__profile__",
+            "file:///home/arjuntina/.config/qtile": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -13,6 +14,9 @@
         "folders": [
             {
                 "folderUri": "file:///home/arjuntina/Files/BU/Classes/Psychology/psychTextbook"
+            },
+            {
+                "folderUri": "file:///home/arjuntina/.config/qtile"
             }
         ],
         "emptyWindows": []
@@ -55,11 +59,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/arjuntina/.config/qtile",
+                                        "path": "/home/arjuntina/.config/qtile",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/qtile"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -71,6 +85,20 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Files/BU/Classes/Psychology/psychTextbook"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/arjuntina/.config/qtile/config.py",
+                                        "path": "/home/arjuntina/.config/qtile/config.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/qtile/config.py"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -128,13 +156,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -676,6 +697,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -1036,8 +1061,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1632,14 +1656,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/arjuntina/Files/BU/Classes/Psychology/psychTextbook",
-            "backupPath": "/home/arjuntina/.config/VSCodium/Backups/b4d68491634bd0a44df1fb406900a427",
+            "folder": "file:///home/arjuntina/.config/qtile",
+            "backupPath": "/home/arjuntina/.config/VSCodium/Backups/7468c23b442e388dc3e5315b4c94ccb9",
             "uiState": {
                 "mode": 1,
-                "x": 10,
-                "y": 34,
-                "width": 1900,
-                "height": 1156
+                "x": 6,
+                "y": 30,
+                "width": 1904,
+                "height": 1160
             }
         },
         "openedWindows": []

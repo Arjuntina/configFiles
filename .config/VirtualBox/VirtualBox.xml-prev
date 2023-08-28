@@ -9,7 +9,7 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=5cf4b139-4980-48d6-bf83-582ea9bbd221"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="6,30,940,1156"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="0,24,1920,1176"/>
       <ExtraDataItem name="GUI/MediumSelector/DialogGeometry" value="0,24,1920,1176"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/usr/lib/virtualbox/additions"/>
       <ExtraDataItem name="GUI/RecentFolderHD" value="/home/arjuntina/VirtualBox VMs/Windows"/>
