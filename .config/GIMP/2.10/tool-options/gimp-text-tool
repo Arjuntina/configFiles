@@ -1,6 +1,8 @@
 # GIMP gimp-text-tool options
 
 (palette "Color History")
-(font "Sans-serif")
+(font "Nimbus Roman,")
+(font-size 24)
+(justify center)
 
 # end of gimp-text-tool options

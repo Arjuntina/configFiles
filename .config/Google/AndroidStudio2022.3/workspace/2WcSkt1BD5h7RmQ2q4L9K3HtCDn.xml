@@ -1,0 +1,131 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="firstApplication" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/firstapplication/MainActivity.kt">
+          <provider selected="true" editor-type-id="android-source-code">
+            <state selected-layout="SHOW_EDITOR">
+              <editor-state>
+                <caret column="1" selection-start-column="1" selection-end-column="1" />
+              </editor-state>
+              <multi-preview-state selected="Compose">
+                <representations>
+                  <list>
+                    <representation name="Compose">
+                      <settings>
+                        <setting name="previewLayout" value="List" />
+                        <setting name="selectedGroup" value="" />
+                      </settings>
+                    </representation>
+                  </list>
+                </representations>
+              </multi-preview-state>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="Kotlin">
+      <summary usageCount="3" lastUsed="1697260814366" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/app/src/main/java/com/example/firstapplication/MainActivity.kt" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="kotlin">
+      <summary usageCount="3" lastUsage="1697260814368" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info id="Bookmarks" order="0" side_tool="true" />
+      <window_info id="Build Variants" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.10688025" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Resources Explorer" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Logcat" order="8" />
+      <window_info anchor="bottom" id="App Quality Insights" order="9" />
+      <window_info anchor="bottom" id="Services" order="10" />
+      <window_info anchor="bottom" id="Build" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Android Profiler" order="12" />
+      <window_info anchor="bottom" id="Layout Inspector" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="App Inspection" order="14" />
+      <window_info anchor="right" id="Device Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Assistant" order="1" visible="true" weight="0.33009452" />
+      <window_info anchor="right" id="App Links Assistant" order="2" />
+      <window_info anchor="right" id="Device Manager" order="3" />
+      <window_info anchor="right" id="Notifications" order="4" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Running Devices" order="6" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Assistant</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="545" y="367" width="1101" height="716" key="IDE.errors.dialog" timestamp="1697030538310">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="545" y="367" width="1101" height="716" key="IDE.errors.dialog/0.0.1920.1200@0.0.1920.1200" timestamp="1697030538310" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/firstapplication/MainActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state selected-layout="SHOW_EDITOR">
+          <editor-state>
+            <caret column="1" selection-start-column="1" selection-end-column="1" />
+          </editor-state>
+          <multi-preview-state selected="Compose">
+            <representations>
+              <list>
+                <representation name="Compose">
+                  <settings>
+                    <setting name="previewLayout" value="List" />
+                    <setting name="selectedGroup" value="" />
+                  </settings>
+                </representation>
+              </list>
+            </representations>
+          </multi-preview-state>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

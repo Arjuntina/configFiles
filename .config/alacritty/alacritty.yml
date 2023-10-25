@@ -9,7 +9,14 @@
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
 import:
-  - ~/.config/alacritty.yml
+  - ~/.config/alacritty/alacritty.yml
+
+# Theme import!
+# bc other people cna make a theme much better than I ever could lol
+# DRACULA = cool colors!
+# needed to put import separately bc otherwise the config crashed! Oh no!
+import:
+  - ~/.config/alacritty/themes/dracula.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -145,7 +152,7 @@ font:
     family: 'FiraCode Nerd Font Mono'
 
     # The `style` can be specified to pick a specific face.
-    style: Bold
+    style: Regular
 
   # Italic font face
   italic:
@@ -156,7 +163,7 @@ font:
     family: 'FiraCode Nerd Font Mono' 
 
     # The `style` can be specified to pick a specific face.
-    style: Light
+    style: Regular
 
   # Bold italic font face
   bold_italic:
@@ -167,7 +174,7 @@ font:
     family: 'FiraCode Nerd Font Mono'
 
     # The `style` can be specified to pick a specific face.
-    style: Medium
+    style: Regular
 
   # Point size
   size: 9.0
@@ -199,9 +206,9 @@ draw_bold_text_with_bright_colors: true
 # Colors (Tomorrow Night)
 colors:
   # Default colors
-  primary:
-    background: '#100425'
-    foreground: '#b5ced2'
+  # primary:
+  # background: '#100425'
+  # foreground: '#b5ced2'
 
     # Bright and dim foreground colors
     #

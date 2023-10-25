@@ -1,0 +1,99 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-10-11 12:11:19.552'
+}
+{
+  message: 'Starting Java server with: /home/arjuntina/.vscode-oss/extensions/redhat.java-1.23.0-linux-x64/jre/17.0.8.1-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/arjuntina/.vscode-oss/extensions/redhat.java-1.23.0-linux-x64/lombok/lombok-1.18.30.jar -jar /home/arjuntina/.vscode-oss/extensions/redhat.java-1.23.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.500.v20230717-2134.jar -configuration /home/arjuntina/.config/VSCodium/User/globalStorage/redhat.java/1.23.0/config_ss_linux -data /home/arjuntina/.config/VSCodium/User/workspaceStorage/f0fa4bbf0cb772b1504c9c43ee817bb6/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-10-11 12:11:19.594'
+}
+{
+  message: 'Starting Java server with: /home/arjuntina/.vscode-oss/extensions/redhat.java-1.23.0-linux-x64/jre/17.0.8.1-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/arjuntina/.vscode-oss/extensions/redhat.java-1.23.0-linux-x64/lombok/lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/arjuntina/.config/VSCodium/User/workspaceStorage/f0fa4bbf0cb772b1504c9c43ee817bb6/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/arjuntina/.vscode-oss/extensions/redhat.java-1.23.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.500.v20230717-2134.jar -configuration /home/arjuntina/.config/VSCodium/User/globalStorage/redhat.java/1.23.0/config_linux -data /home/arjuntina/.config/VSCodium/User/workspaceStorage/f0fa4bbf0cb772b1504c9c43ee817bb6/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-10-11 12:11:20.229'
+}
+{
+  message: 'Oct 11, 2023 12:11:21 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-10-11 12:11:21.525'
+}
+{
+  message: 'Oct 11, 2023 12:11:21 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-10-11 12:11:21.529'
+}
+{
+  message: 'Oct 11, 2023 12:12:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification\n' +
+    'WARNING: Notification threw an exception: {\n' +
+    '  "jsonrpc": "2.0",\n' +
+    '  "method": "$/setTrace",\n' +
+    '  "params": {\n' +
+    '    "value": "off"\n' +
+    '  }\n' +
+    '}\n' +
+    'java.lang.RuntimeException: java.lang.reflect.InvocationTargetException\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:67)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.reflect.InvocationTargetException\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\t... 12 more\n' +
+    'Caused by: java.lang.UnsupportedOperationException\n' +
+    '\tat org.eclipse.lsp4j.services.LanguageServer.setTrace(LanguageServer.java:125)\n' +
+    '\t... 17 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2023-10-11 12:12:19.265'
+}
+{
+  message: 'Oct 11, 2023 12:17:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 162\n',
+  level: 'info',
+  timestamp: '2023-10-11 12:17:31.228'
+}
+{
+  message: 'Oct 11, 2023 12:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 184\n',
+  level: 'info',
+  timestamp: '2023-10-11 12:17:36.365'
+}
+{
+  message: 'Oct 11, 2023 12:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 191\n',
+  level: 'info',
+  timestamp: '2023-10-11 12:17:36.809'
+}
+{
+  message: 'Oct 11, 2023 12:18:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 331\n',
+  level: 'info',
+  timestamp: '2023-10-11 12:18:06.516'
+}
+{
+  message: 'Oct 11, 2023 12:30:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 728\n',
+  level: 'info',
+  timestamp: '2023-10-11 12:30:58.080'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1018, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-10-11 12:41:07.600'
+}

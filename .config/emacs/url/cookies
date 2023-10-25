@@ -1,0 +1,17 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ 'nil)
+(setq url-cookie-secure-storage
+ '((".stackoverflow.com"
+  [url-cookie "prov" "aeb259bc-d22b-489b-9114-4108e749fe3e" "Wed, 02 Oct 2024 02:41:08 GMT" "/" ".stackoverflow.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; coding: utf-8-emacs-unix
+;; End:
+
+;;; cookies ends here

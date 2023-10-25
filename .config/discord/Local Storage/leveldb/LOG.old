@@ -1,18 +1,7 @@
-2023/08/27-20:36:01.699 114c Reusing MANIFEST /home/arjuntina/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/08/27-20:36:01.701 114c Recovering log #25
-2023/08/27-20:36:01.701 114c Reusing old log /home/arjuntina/.config/discord/Local Storage/leveldb/000025.log 
-2023/08/27-21:13:17.129 14fa Level-0 table #29: started
-2023/08/27-21:13:17.165 14fa Level-0 table #29: 12731 bytes OK
-2023/08/27-21:13:17.168 14fa Delete type=0 #25
-2023/08/27-21:13:17.168 14fa Compacting 4@0 + 1@1 files
-2023/08/27-21:13:17.185 14fa Generated table #30@0: 84 keys, 3722900 bytes
-2023/08/27-21:13:17.185 14fa Compacted 4@0 + 1@1 files => 3722900 bytes
-2023/08/27-21:13:17.187 14fa compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/08/27-21:13:17.187 14fa Delete type=2 #29
-2023/08/27-21:13:17.187 14fa Delete type=2 #21
-2023/08/27-21:13:17.187 14fa Delete type=2 #23
-2023/08/27-21:13:17.187 14fa Delete type=2 #26
-2023/08/27-21:13:17.187 14fa Delete type=2 #17
-2023/08/27-21:26:02.307 14fa Level-0 table #32: started
-2023/08/27-21:26:02.313 14fa Level-0 table #32: 11669 bytes OK
-2023/08/27-21:26:02.316 14fa Delete type=0 #28
+2023/10/17-19:14:54.715 3dd2 Reusing MANIFEST /home/arjuntina/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/10/17-19:14:54.716 3dd2 Recovering log #82
+2023/10/17-19:14:54.730 3dd2 Level-0 table #85: started
+2023/10/17-19:14:54.757 3dd2 Level-0 table #85: 4007494 bytes OK
+2023/10/17-19:14:54.758 3dd2 Recovering log #84
+2023/10/17-19:14:54.758 3dd2 Reusing old log /home/arjuntina/.config/discord/Local Storage/leveldb/000084.log 
+2023/10/17-19:14:54.759 3dd2 Delete type=0 #82

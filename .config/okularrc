@@ -1,0 +1,37 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+1920x1200 screen: Height=1160
+1920x1200 screen: Width=1904
+1920x1200 screen: XPosition=6
+1920x1200 screen: YPosition=30
+State=AAAA/wAAAAD9AAAAAQAAAAAAAADIAAAELPwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAABcAAAELAAAAOUA///+AAAGogAABCwAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Orgo lab 4_merged.pdf
+File10[$e]=$HOME/Downloads/Volunteer Status Confirmation Confidentiality Agreement_copy.pdf
+File2[$e]=$HOME/Files/BU/Classes/DiffGeo/DiffGeoTB.djvu
+File3[$e]=$HOME/Downloads/Experiment 6 pre lab.pdf
+File4[$e]=$HOME/Downloads/how to use mestre nova.pdf
+File5[$e]=$HOME/Downloads/PreLab 6 What's in a tablet.pdf
+File6[$e]=$HOME/Downloads/Joel Karty - Organic Chemistry_ Principles and Mechanisms-W.W. Norton & Company (2018).pdf
+File7[$e]=$HOME/Downloads/PER-Electric-1.pdf
+File8[$e]=$HOME/Downloads/ISLP_website.pdf
+File9[$e]=$HOME/Downloads/Intellectual-Property-Agreement_copy.pdf
+Name1[$e]=Orgo lab 4_merged.pdf
+Name10[$e]=Volunteer Status Confirmation Confidentiality Agreement_copy.pdf
+Name2[$e]=DiffGeoTB.djvu
+Name3[$e]=Experiment 6 pre lab.pdf
+Name4[$e]=how to use mestre nova.pdf
+Name5[$e]=PreLab 6 What's in a tablet.pdf
+Name6[$e]=Joel Karty - Organic Chemistry_ Principles and Mechanisms-W.W. Norton & Company (2018).pdf
+Name7[$e]=PER-Electric-1.pdf
+Name8[$e]=ISLP_website.pdf
+Name9[$e]=Intellectual-Property-Agreement_copy.pdf

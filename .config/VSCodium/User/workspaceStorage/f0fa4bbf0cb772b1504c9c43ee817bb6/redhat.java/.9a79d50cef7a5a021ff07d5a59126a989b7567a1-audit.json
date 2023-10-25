@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/arjuntina/.config/VSCodium/User/workspaceStorage/f0fa4bbf0cb772b1504c9c43ee817bb6/redhat.java/.9a79d50cef7a5a021ff07d5a59126a989b7567a1-audit.json",
+    "files": [
+        {
+            "date": 1697051479508,
+            "name": "/home/arjuntina/.config/VSCodium/User/workspaceStorage/f0fa4bbf0cb772b1504c9c43ee817bb6/redhat.java/client.log.2023-10-11",
+            "hash": "4b0017773d3409870670aa66dbd1d7983a5e0ee2898057901a4d0e0daa9fce12"
+        },
+        {
+            "date": 1697128593372,
+            "name": "/home/arjuntina/.config/VSCodium/User/workspaceStorage/f0fa4bbf0cb772b1504c9c43ee817bb6/redhat.java/client.log.2023-10-12",
+            "hash": "e39f19b124ac23872c49adbc6154211331c3720b782c6df08785feb6e634c4fc"
+        },
+        {
+            "date": 1697218142955,
+            "name": "/home/arjuntina/.config/VSCodium/User/workspaceStorage/f0fa4bbf0cb772b1504c9c43ee817bb6/redhat.java/client.log.2023-10-13",
+            "hash": "9a616d282abe281e7d070b32c963d792005f56dcdbba94c6197dfd7e0ba8e614"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -8,9 +8,9 @@
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=5cf4b139-4980-48d6-bf83-582ea9bbd221"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="0,24,1920,1176"/>
-      <ExtraDataItem name="GUI/MediumSelector/DialogGeometry" value="0,24,1920,1176"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="n=GLOBAL"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="6,30,1904,1160"/>
+      <ExtraDataItem name="GUI/MediumSelector/DialogGeometry" value="966,30,944,1160"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/usr/lib/virtualbox/additions"/>
       <ExtraDataItem name="GUI/RecentFolderHD" value="/home/arjuntina/VirtualBox VMs/Windows"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/usr/lib/virtualbox/additions/VBoxGuestAdditions.iso,/home/arjuntina/Downloads/Win10_22H2_English_x64v1.iso"/>
@@ -19,9 +19,12 @@
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Media,Details"/>
       <ExtraDataItem name="GUI/VirtualMediaManager/Details/Expanded" value="true"/>
     </ExtraData>
-    <MachineRegistry>
-      <MachineEntry uuid="{5cf4b139-4980-48d6-bf83-582ea9bbd221}" src="/home/arjuntina/VirtualBox VMs/Windows/Windows.vbox"/>
-    </MachineRegistry>
+    <MachineRegistry/>
+    <MediaRegistry>
+      <HardDisks>
+        <HardDisk uuid="{ef4f5ce8-3d93-45f9-971f-f6f53e454d9b}" location="/home/arjuntina/VirtualBox VMs/Windows/Windows.vdi" format="VDI" type="Normal"/>
+      </HardDisks>
+    </MediaRegistry>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>

@@ -1,0 +1,6 @@
+# Save in ~/Videos
+-o ~/Downloads/YoutubeVids/%(title)s.%(ext)s
+
+# Enable subtitles!
+# Maybe there is an option to get good subs if available -- hmm!
+--write-auto-subs

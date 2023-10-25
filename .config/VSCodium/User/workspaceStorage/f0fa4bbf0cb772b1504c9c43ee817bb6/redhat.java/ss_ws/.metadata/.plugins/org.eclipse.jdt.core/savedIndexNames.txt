@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/home/arjuntina/.config/VSCodium/User/workspaceStorage/f0fa4bbf0cb772b1504c9c43ee817bb6/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core
