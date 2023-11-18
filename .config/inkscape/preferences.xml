@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="727.479065421998"
-         height="257.871641624631" />
+         width="328.464912955217"
+         height="204.373615895669" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -306,7 +306,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -635,7 +635,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/arjuntina/.config/qtile" />
+       path="/home/arjuntina/Files/BU/Classes/OrganicChem/" />
     <group
        id="import"
        enable_preview="1"
@@ -979,7 +979,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#968ef1;-inkscape-font-specification:'Source Code Pro, Heavy Italic';font-family:'Source Code Pro';font-size:96px;stroke:#200050;stroke-width:1.0015748;font-weight:900;font-style:italic">
+     style="fill:#d87719;-inkscape-font-specification:'Source Code Pro, Heavy Italic';font-family:'Source Code Pro';font-size:96px;stroke:#200050;stroke-width:1.0015748;font-weight:900;font-style:italic">
     <group
        width="640"
        height="480"

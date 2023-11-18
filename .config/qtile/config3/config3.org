@@ -1,6 +1,0 @@
-# uncomment the line below to export this config to the qtile config :)
-#+PROPERTY: header-args :tangle ../config.py
-
-* 3rd qtile config
-** copied nice ones from online to see what others are doing :)
-

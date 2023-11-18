@@ -2,7 +2,7 @@
 
 (palette "Color History")
 (font "Nimbus Roman,")
-(font-size 24)
+(font-size 36)
 (justify center)
 
 # end of gimp-text-tool options

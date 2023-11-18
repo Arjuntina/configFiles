@@ -1,3 +1,0 @@
-* 2nd qtile config
-** Purpose
-*** minimalist one without external headers/bars

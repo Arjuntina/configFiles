@@ -7,7 +7,7 @@
 
 
 # If there is a display and the first virtual environment is used, then start x server i think
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec startx
-fi
+# if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+#   exec startx
+# fi
 

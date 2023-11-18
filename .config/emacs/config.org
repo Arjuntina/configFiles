@@ -13,11 +13,30 @@
 ;; this is a test message to see if tangle is working
 ;; wtf it somehow is hallelujah
 
-;; NAVIGATION
+;; PACKAGES
+;; Configure packages
+;; Initialize package sources -- Copied from YT vid
+(require 'package)
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+			 ("org" . "https://orgmode.org/elpa/")
+			 ("elpa" . "https://elpa.gnu.org/packages/")))
+(package-initialize)
+(unless package-archive-contents
+  (package-refresh-contents))
+
+;; Download Evil
+(unless (package-installed-p 'evil)
+(package-install 'evil))
+
+(require 'use-package)
+(setq use-package-always-ensure t)
+
 ;; enables evil mode! (Vim keybindings = better :) )
-(add-to-list 'load-path "~/.config/emacs/evil")
 (require 'evil)
 (evil-mode 1)
+
+
+;; NAVIGATION
 ;; Make tab expand + collapse bullet points in org mode!
 (evil-define-key 'normal org-mode-map (kbd "<tab>") #'org-cycle)
 (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
@@ -154,19 +173,6 @@
       ;;; dired-fixups.el ends here
 
 
-;; PACKAGES
-;; Configure packages
-;; Initialize package sources -- Copied from YT vid
-(require 'package)
-(setq package-archives '(("melpa" . "https://melpa.org/packages/")
-			 ("org" . "https://orgmode.org/elpa/")
-			 ("elpa" . "https://elpa.gnu.org/packages/")))
-(package-initialize)
-(unless package-archive-contents
-  (package-refresh-contents))
-
-(require 'use-package)
-(setq use-package-always-ensure t)
 
 ;; APPEARANCE
 ;; Text

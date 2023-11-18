@@ -13,41 +13,8 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
-
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
-{
-  "folke/which-key.nvim",
-  event = "VeryLazy",
-  init = function()
-    vim.o.timeout = true
-    vim.o.timeoutlen = 300
-  end,
-  opts = {
-    -- your configuration comes here
-    -- or leave it empty to use the default settings
-    -- refer to the configuration section below
-  }
-},
-{
-    'nvim-telescope/telescope.nvim',
-    tag = '0.1.3',
-},
-{
-    "folke/tokyonight.nvim",
-    opts = { 
-        style = "moon",
-        on_colors = function(colors)
-            colors.fg_gutter = colors.blue1
-        end
-    },
-    init = function()
-        --load the colorscheme
-        vim.cmd([[colorscheme tokyonight]])
-    end
-},
-{
-    "vimwiki/vimwiki"
-}
-})
+require("lazy").setup({{import = "arjuntina.plugins"}, {import = "arjuntina.plugins.lsp"}})
+
+

@@ -1,0 +1,742 @@
+{
+    "$id": 0,
+    "$type": "0|ProfileProxy, Assembly-CSharp",
+    "m_Version": 65,
+    "m_GridEnabled": true,
+    "m_StressViewEnabled": true,
+    "m_AutoTriangulateEnabled": false,
+    "m_AutoDrawEnabled": false,
+    "m_SortSandboxLayoutByDate": false,
+    "m_SortBridgeSavesByDate": false,
+    "m_AutomatiallyLoadAutoSave": true,
+    "m_Replays": true,
+    "m_LastLoadedSandbox": "",
+    "m_PointOfViewType": 3,
+    "m_EventEditorScreenHeightNormalized": 0.3,
+    "m_CampaignLevels": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CampaignLevelState, Assembly-CSharp]], mscorlib",
+        "comparer": {
+            "$id": 2,
+            "$type": "2|System.Collections.Generic.InternalStringComparer, mscorlib"
+        },
+        "$rlength": 15,
+        "$rcontent": [
+            {
+                "mAp2V",
+                {
+                    "$id": 3,
+                    "$type": "3|CampaignLevelState, Assembly-CSharp",
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 39.6806068,
+                    "m_Status": 3
+                }
+            },
+            {
+                "ffffff",
+                {
+                    "$id": 4,
+                    "$type": 3,
+                    "m_Completed": false,
+                    "m_ElapsedSeconds": 57.5032578,
+                    "m_Status": 0
+                }
+            },
+            {
+                "NAgrb",
+                {
+                    "$id": 5,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 55.4517,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Bbm2A",
+                {
+                    "$id": 6,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 75.44605,
+                    "m_Status": 3
+                }
+            },
+            {
+                "0A5Zn",
+                {
+                    "$id": 7,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 109.378075,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JbOmn",
+                {
+                    "$id": 8,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 260.45755,
+                    "m_Status": 3
+                }
+            },
+            {
+                "aVeaV",
+                {
+                    "$id": 9,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 110.902893,
+                    "m_Status": 3
+                }
+            },
+            {
+                "5VlRA",
+                {
+                    "$id": 10,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 84.10165,
+                    "m_Status": 3
+                }
+            },
+            {
+                "gnR7V",
+                {
+                    "$id": 11,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 64.57098,
+                    "m_Status": 3
+                }
+            },
+            {
+                "7b7xA",
+                {
+                    "$id": 12,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 72.90587,
+                    "m_Status": 3
+                }
+            },
+            {
+                "WAGoA",
+                {
+                    "$id": 13,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 240.738663,
+                    "m_Status": 2
+                }
+            },
+            {
+                "ObqMb",
+                {
+                    "$id": 14,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 340.480469,
+                    "m_Status": 3
+                }
+            },
+            {
+                "EAaRn",
+                {
+                    "$id": 15,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 126.917137,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Xb3Ob",
+                {
+                    "$id": 16,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 140.7065,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Ap22V",
+                {
+                    "$id": 17,
+                    "$type": 3,
+                    "m_Completed": false,
+                    "m_ElapsedSeconds": 265.084045,
+                    "m_Status": 0
+                }
+            }
+        ]
+    },
+    "m_SolvedWorkshopIds": {
+        "$id": 18,
+        "$type": "4|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CampaignLevelStatus, Assembly-CSharp]], mscorlib",
+        "comparer": $iref:2,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_CampaignLevelsDurationSeconds": null,
+    "m_NeverShowAgain": {
+        "$id": 19,
+        "$type": "5|System.Collections.Generic.HashSet`1[[PopUpWarningCategory, Assembly-CSharp]], System.Core",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_ViewedTipLocIds": {
+        "$id": 20,
+        "$type": "6|System.Collections.Generic.HashSet`1[[System.String, mscorlib]], System.Core",
+        "$rlength": 1,
+        "$rcontent": [
+            "TIP31_NAME"
+        ]
+    },
+    "m_ArcShape": 0,
+    "m_GalleryIncludeFails": true,
+    "m_PlayedTutorial": true,
+    "m_SeenHydraulicsTutorial": true,
+    "m_LastSolvedCampaignLevelId": "Ap22V",
+    "m_LastLoadedCampaignLevelId": "Ap22V",
+    "m_LastLoadedCampaignChallengeLevelId": "",
+    "m_LastMainMenuLayout": "Savanna",
+    "m_SeenMainMenu": false,
+    "m_WorkshopItemsSortBy": 0,
+    "m_WorkshopCampaignsSortBy": 0,
+    "m_HasClickedChallenges": false,
+    "m_LocalAchievementIDsUnlockedList": {
+        "$id": 21,
+        "$type": "7|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.DateTime, mscorlib]], mscorlib",
+        "comparer": {
+            "$id": 22,
+            "$type": "8|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32, mscorlib]], mscorlib"
+        },
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_LocalAchievementStats": {
+        "$id": 23,
+        "$type": "9|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32, mscorlib]], mscorlib",
+        "comparer": $iref:2,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_LeaderboardPanelUnbreaking": false,
+    "m_LeaderboardPanelFriends": false,
+    "m_LeaderboardLevelCompleteUnbreaking": false,
+    "m_LeaderboardLevelCompleteFriends": false,
+    "m_WeeklyChallengesUnbreaking": false,
+    "m_WeeklyChallengesFriends": false,
+    "m_HideOtherPlayerSolutions": false,
+    "m_AutoPlayOnly": false,
+    "m_ExcludeAutoPlay": false,
+    "m_CachedScoresDidBreak": {
+        "$id": 24,
+        "$type": 9,
+        "comparer": $iref:2,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_CachedScoresNoBreak": {
+        "$id": 25,
+        "$type": 9,
+        "comparer": $iref:2,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_FollowingUserIds": {
+        "$id": 26,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_FollowingUserIdsBackEnd": {
+        "$id": 27,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_EndorsedItemIds": {
+        "$id": 28,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_EndorsedItemIdsBackEnd": {
+        "$id": 29,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_EndorsedCampaignIds": {
+        "$id": 30,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_EndorsedCampaignIdsBackEnd": {
+        "$id": 31,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_OpenedWeeklyChallengeItemIds": {
+        "$id": 32,
+        "$type": 6,
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_TwitchUsername": null,
+    "m_TwitchSuscribersOnly": false,
+    "m_TwitchModerated": false,
+    "m_TwitchAutoPlay": false,
+    "m_TwitchAutoAdvance": true,
+    "m_TwitchAllowSuggestions": true,
+    "m_TwitchBitsEnabled": false,
+    "m_TwitchBitsMandatory": false,
+    "m_TwitchViewerCooldownSeconds": 5,
+    "m_TwitchStreamerWindowPos": {
+        "$type": "10|UnityEngine.Vector2, UnityEngine.CoreModule",
+        -418.5,
+        33.6
+    },
+    "m_TwitchStreamerWindowCollapsed": false,
+    "m_TwitchStreamerWindowHeight": 295,
+    "m_TwitchAuthorPanelPos": {
+        "$type": 10,
+        0,
+        242
+    },
+    "m_TwitterToken": "",
+    "m_TwitterUsername": "",
+    "m_RedditRefreshToken": "",
+    "m_RedditUsername": "",
+    "m_Language": 0,
+    "m_ColorBlindModeOn": false,
+    "m_MouseWheelSpeedNormalized": 0.08,
+    "m_CameraRotateSpeedNormalized": 0.75,
+    "m_CameraPanSpeedNormalized": 0.75,
+    "m_MasterVolume": 70,
+    "m_SFXVolume": 100,
+    "m_MusicVolume": 60,
+    "m_UIVolume": 80,
+    "m_SirenAudioEnabled": true,
+    "m_FullScreen": true,
+    "m_Bloom": true,
+    "m_ColorGrading": true,
+    "m_VehicleLights": true,
+    "m_Vsync": true,
+    "m_ShadowResolution": 3,
+    "m_AntiAliasingQuality": 3,
+    "m_ScreenWidth": 3840,
+    "m_ScreenHeight": 2400,
+    "m_Bindings": {
+        "$id": 33,
+        "$type": "11|System.Collections.Generic.List`1[[BindingProxy, Assembly-CSharp]], mscorlib",
+        "$rlength": 55,
+        "$rcontent": [
+            {
+                "$id": 34,
+                "$type": "12|BindingProxy, Assembly-CSharp",
+                "m_BindingType": 2,
+                "m_KeyCode": 32,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 35,
+                "$type": 12,
+                "m_BindingType": 34,
+                "m_KeyCode": 112,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 36,
+                "$type": 12,
+                "m_BindingType": 3,
+                "m_KeyCode": 9,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 37,
+                "$type": 12,
+                "m_BindingType": 20,
+                "m_KeyCode": 122,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 38,
+                "$type": 12,
+                "m_BindingType": 21,
+                "m_KeyCode": 121,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 39,
+                "$type": 12,
+                "m_BindingType": 7,
+                "m_KeyCode": 116,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 40,
+                "$type": 12,
+                "m_BindingType": 8,
+                "m_KeyCode": 103,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 41,
+                "$type": 12,
+                "m_BindingType": 6,
+                "m_KeyCode": 105,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 42,
+                "$type": 12,
+                "m_BindingType": 19,
+                "m_KeyCode": 106,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 43,
+                "$type": 12,
+                "m_BindingType": 18,
+                "m_KeyCode": 304,
+                "m_AltKeyCode": 303
+            },
+            {
+                "$id": 44,
+                "$type": 12,
+                "m_BindingType": 9,
+                "m_KeyCode": 46,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 45,
+                "$type": 12,
+                "m_BindingType": 10,
+                "m_KeyCode": 44,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 46,
+                "$type": 12,
+                "m_BindingType": 5,
+                "m_KeyCode": 100,
+                "m_AltKeyCode": 127
+            },
+            {
+                "$id": 47,
+                "$type": 12,
+                "m_BindingType": 59,
+                "m_KeyCode": 114,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 48,
+                "$type": 12,
+                "m_BindingType": 22,
+                "m_KeyCode": 99,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 49,
+                "$type": 12,
+                "m_BindingType": 23,
+                "m_KeyCode": 120,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 50,
+                "$type": 12,
+                "m_BindingType": 24,
+                "m_KeyCode": 102,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 51,
+                "$type": 12,
+                "m_BindingType": 25,
+                "m_KeyCode": 118,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 52,
+                "$type": 12,
+                "m_BindingType": 35,
+                "m_KeyCode": 104,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 53,
+                "$type": 12,
+                "m_BindingType": 4,
+                "m_KeyCode": 308,
+                "m_AltKeyCode": 307
+            },
+            {
+                "$id": 54,
+                "$type": 12,
+                "m_BindingType": 1,
+                "m_KeyCode": 323,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 55,
+                "$type": 12,
+                "m_BindingType": 17,
+                "m_KeyCode": 324,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 56,
+                "$type": 12,
+                "m_BindingType": 36,
+                "m_KeyCode": 324,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 57,
+                "$type": 12,
+                "m_BindingType": 12,
+                "m_KeyCode": 273,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 58,
+                "$type": 12,
+                "m_BindingType": 13,
+                "m_KeyCode": 276,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 59,
+                "$type": 12,
+                "m_BindingType": 14,
+                "m_KeyCode": 274,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 60,
+                "$type": 12,
+                "m_BindingType": 15,
+                "m_KeyCode": 275,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 61,
+                "$type": 12,
+                "m_BindingType": 26,
+                "m_KeyCode": 49,
+                "m_AltKeyCode": 257
+            },
+            {
+                "$id": 62,
+                "$type": 12,
+                "m_BindingType": 27,
+                "m_KeyCode": 50,
+                "m_AltKeyCode": 258
+            },
+            {
+                "$id": 63,
+                "$type": 12,
+                "m_BindingType": 28,
+                "m_KeyCode": 51,
+                "m_AltKeyCode": 259
+            },
+            {
+                "$id": 64,
+                "$type": 12,
+                "m_BindingType": 29,
+                "m_KeyCode": 52,
+                "m_AltKeyCode": 260
+            },
+            {
+                "$id": 65,
+                "$type": 12,
+                "m_BindingType": 30,
+                "m_KeyCode": 53,
+                "m_AltKeyCode": 261
+            },
+            {
+                "$id": 66,
+                "$type": 12,
+                "m_BindingType": 31,
+                "m_KeyCode": 54,
+                "m_AltKeyCode": 262
+            },
+            {
+                "$id": 67,
+                "$type": 12,
+                "m_BindingType": 32,
+                "m_KeyCode": 55,
+                "m_AltKeyCode": 263
+            },
+            {
+                "$id": 68,
+                "$type": 12,
+                "m_BindingType": 37,
+                "m_KeyCode": 304,
+                "m_AltKeyCode": 303
+            },
+            {
+                "$id": 69,
+                "$type": 12,
+                "m_BindingType": 38,
+                "m_KeyCode": 120,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 70,
+                "$type": 12,
+                "m_BindingType": 39,
+                "m_KeyCode": 99,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 71,
+                "$type": 12,
+                "m_BindingType": 16,
+                "m_KeyCode": 292,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 72,
+                "$type": 12,
+                "m_BindingType": 40,
+                "m_KeyCode": 57,
+                "m_AltKeyCode": 265
+            },
+            {
+                "$id": 73,
+                "$type": 12,
+                "m_BindingType": 41,
+                "m_KeyCode": 48,
+                "m_AltKeyCode": 256
+            },
+            {
+                "$id": 74,
+                "$type": 12,
+                "m_BindingType": 42,
+                "m_KeyCode": 113,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 75,
+                "$type": 12,
+                "m_BindingType": 43,
+                "m_KeyCode": 101,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 76,
+                "$type": 12,
+                "m_BindingType": 44,
+                "m_KeyCode": 108,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 77,
+                "$type": 12,
+                "m_BindingType": 45,
+                "m_KeyCode": 115,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 78,
+                "$type": 12,
+                "m_BindingType": 60,
+                "m_KeyCode": 96,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 79,
+                "$type": 12,
+                "m_BindingType": 47,
+                "m_KeyCode": 325,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 80,
+                "$type": 12,
+                "m_BindingType": 51,
+                "m_KeyCode": 97,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 81,
+                "$type": 12,
+                "m_BindingType": 52,
+                "m_KeyCode": 288,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 82,
+                "$type": 12,
+                "m_BindingType": 54,
+                "m_KeyCode": 287,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 83,
+                "$type": 12,
+                "m_BindingType": 53,
+                "m_KeyCode": 289,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 84,
+                "$type": 12,
+                "m_BindingType": 55,
+                "m_KeyCode": 306,
+                "m_AltKeyCode": 305
+            },
+            {
+                "$id": 85,
+                "$type": 12,
+                "m_BindingType": 56,
+                "m_KeyCode": 61,
+                "m_AltKeyCode": 270
+            },
+            {
+                "$id": 86,
+                "$type": 12,
+                "m_BindingType": 57,
+                "m_KeyCode": 45,
+                "m_AltKeyCode": 269
+            },
+            {
+                "$id": 87,
+                "$type": 12,
+                "m_BindingType": 58,
+                "m_KeyCode": 118,
+                "m_AltKeyCode": 0
+            },
+            {
+                "$id": 88,
+                "$type": 12,
+                "m_BindingType": 61,
+                "m_KeyCode": 282,
+                "m_AltKeyCode": 0
+            }
+        ]
+    }
+}

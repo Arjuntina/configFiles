@@ -1,12 +1,10 @@
 require("arjuntina")
-require("arjuntina.lazy")
 
 -- not really sure what all these do, but will investigate later
 -- for now, just consider them to be "sensible defaults" :)
 
 vim.cmd([[
 set nocompatible            " disable compatibility to old-time vi -- Investigate!
-set smartcase               " unique functionality in which upper case = case sensitive search, lower case = case insensitive search -- both overridden with /C i think (investigate)
 set showmatch               " show matching brackets.
 set hlsearch                " highlight search results
 set autoindent              " indent a new line the same amount as the line just typed
