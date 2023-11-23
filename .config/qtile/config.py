@@ -74,7 +74,6 @@ keys = [
     #    desc="Toggle between split and unsplit sides of stack",
     #),
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
-    Key([mod], "space", lazy.spawn("rofi -show drun"), desc="Application launcher"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod, "shift"], "Tab", lazy.prev_layout(), desc="Toggle between layouts in the other direction"),

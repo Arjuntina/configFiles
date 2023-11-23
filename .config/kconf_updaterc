@@ -16,9 +16,9 @@ done=BreezeToBreezeLight
 mtime=1698157038
 
 [delete_cursor_old_default_size.upd]
-ctime=1699489613
+ctime=1700578362
 done=DeleteCursorOldDefaultSize
-mtime=1699472191
+mtime=1699791123
 
 [disable_kmix.upd]
 ctime=1698984961
@@ -51,9 +51,9 @@ done=Plasma_Fonts_Kate
 mtime=1698157670
 
 [icons_remove_effects.upd]
-ctime=1699489613
+ctime=1700578362
 done=IconsRemoveEffects
-mtime=1699472191
+mtime=1699791123
 
 [kcm_rename_plasma_desktop.upd]
 ctime=1698960683
@@ -71,14 +71,14 @@ done=kcminputrc_migrate_key_repeat
 mtime=1698159753
 
 [krunnerglobalshortcuts2.upd]
-ctime=1699489613
+ctime=1700578362
 done=5.22KRunnerGlobalShortcuts
-mtime=1699472191
+mtime=1699791123
 
 [krunnerhistory.upd]
-ctime=1699489613
+ctime=1700578362
 done=5.21KRunnerHistory
-mtime=1699472191
+mtime=1699791123
 
 [kscreenlocker.upd]
 ctime=1698960682
@@ -116,11 +116,11 @@ done=annotation-toolbar,builtin-annotations
 mtime=1699365007
 
 [plasmashell-5.27-use-panel-thickness-in-default-group.upd]
-ctime=1699489613
+ctime=1700578362
 done=plasmashell-5.27-use-panel-thickness-in-default-group
-mtime=1699472191
+mtime=1699791123
 
 [style_widgetstyle_default_breeze.upd]
-ctime=1699489613
+ctime=1700578362
 done=StyleWidgetStyleDefaultBreeze
-mtime=1699472191
+mtime=1699791123

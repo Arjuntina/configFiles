@@ -85,7 +85,9 @@ Ribose
 Ribosomal
 SV40
 Ser
+Spectrin
 Spliceosomes
+Subshells
 Subunit
 Suckless
 Systemd
@@ -248,6 +250,7 @@ touchpad
 transfect
 transferase
 transferases
+transmembrane
 trimethylated
 trp
 tyrosine
@@ -263,4 +266,4 @@ wifi
 wlan
 wpa
 x11
-checksum_v1 = ab0cced1d0db9572f411bdddd190851f
+checksum_v1 = 16a2a60c2cbf88664b74275756918787

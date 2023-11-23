@@ -3,7 +3,7 @@
 # better than soft link? i think so
 
 # If .zshrc found, then initialize somehow (i think)
-[[ -f ~/.zshrc ]] && . ~/.zshrc
+if [[ -f ~/.zshrc ]]; then . ~/.zshrc; fi
 
 
 # If there is a display and the first virtual environment is used, then start x server i think

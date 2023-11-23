@@ -5,13 +5,13 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 count=0
 
 [Session: saved at previous logout]
-clientId1=1013f159145146000170026372100000009350005
-clientId2=1013f159145146000170026465400000009350008
+clientId1=1013f159145146000170062624900000009540004
+clientId2=1013f159145146000170062625000000009540007
 count=2
-program1=pulseaudio
-program2=/usr/bin/flameshot
-restartCommand1=
-restartCommand2=/usr/bin/flameshot,-session,1013f159145146000170026465400000009350008_1700267044_114019
+program1=/usr/bin/kalendarac
+program2=pulseaudio
+restartCommand1=/usr/bin/kalendarac,-session,1013f159145146000170062624900000009540004_1700626326_35129
+restartCommand2=
 restartStyleHint1=0
 restartStyleHint2=0
 userId1=arjuntina
