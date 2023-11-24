@@ -6,6 +6,8 @@ PS1='%~ > '
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-# Make the path include emacs directory so doom emacs commands can be used
-# Done here and not in .xinitrc so that emacs can run on the command line
-export PATH=~/.config/emacs/bin:$PATH
+# alternate (cooler) neofetch with random config :)
+if [ -f "/home/arjuntina/Software/Boogaloo/neofetchRandom.sh" ] && [ -d "/home/arjuntina/.config/neofetch/allConfigs" ] ; then
+    alias neofetch='/home/arjuntina/Software/Boogaloo/neofetchRandom.sh'
+fi
+
