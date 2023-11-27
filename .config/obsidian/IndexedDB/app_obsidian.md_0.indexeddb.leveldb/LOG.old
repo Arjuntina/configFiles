@@ -1,5 +1,12 @@
-2023/11/23-15:13:23.759 54f Reusing MANIFEST /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/23-15:13:23.759 54f Recovering log #174
-2023/11/23-15:13:23.785 54f Reusing old log /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000174.log 
-2023/11/23-15:13:23.785 54f Delete type=2 #172
-2023/11/23-15:13:23.785 54f Delete type=2 #175
+2023/11/26-08:28:52.098 6cc Reusing MANIFEST /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/26-08:28:52.099 6cc Recovering log #178
+2023/11/26-08:28:52.137 6cc Reusing old log /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000178.log 
+2023/11/26-08:28:53.333 72c Level-0 table #183: started
+2023/11/26-08:28:53.348 72c Level-0 table #183: 1415042 bytes OK
+2023/11/26-08:28:53.350 72c Delete type=0 #178
+2023/11/26-08:28:53.464 6cb Compacting 1@0 + 1@1 files
+2023/11/26-08:28:53.486 6cb Generated table #184@0: 10463 keys, 1236734 bytes
+2023/11/26-08:28:53.486 6cb Compacted 1@0 + 1@1 files => 1236734 bytes
+2023/11/26-08:28:53.488 6cb compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/26-08:28:53.488 6cb Delete type=2 #183
+2023/11/26-08:28:53.488 6cb Delete type=2 #180

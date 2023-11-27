@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="328.464912955217"
-         height="204.373615895669" />
+         width="49.5667729415292"
+         height="94.931160033219" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -306,7 +306,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -963,7 +963,8 @@
        theme="colorful">
       <group
          id="shown"
-         ver1.3="1" />
+         ver1.3="1"
+         ver1.3.1="1" />
     </group>
     <group
        id="rendering" />
@@ -979,7 +980,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#d87719;-inkscape-font-specification:'Source Code Pro, Heavy Italic';font-family:'Source Code Pro';font-size:96px;stroke:#200050;stroke-width:1.0015748;font-weight:900;font-style:italic">
+     style="fill:#0052ff;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-size:10.66666667px;stroke-width:0.94488189">
     <group
        width="640"
        height="480"
@@ -1124,4 +1125,7 @@
   <group
      id="gradient-edit"
      stoplist="1" />
+  <group
+     id="pattern-edit"
+     currentSet="0" />
 </inkscape>
