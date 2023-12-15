@@ -114,6 +114,7 @@ acetylation
 adenosine
 adhesions
 alanine
+amd64
 amyloids
 anagen
 applicationname
@@ -123,6 +124,7 @@ archwiki
 areolar
 asparagine
 aspartic
+astrophotography
 backend
 backends
 bc
@@ -241,11 +243,13 @@ snoRNA
 snoRNPs
 spliceosomes
 stereotypically
+subtree
 subunit
 systemctl
 systemd
 tRNAs
 telogen
+tex
 threonine
 touchpad
 transfect
@@ -267,4 +271,5 @@ wifi
 wlan
 wpa
 x11
-checksum_v1 = 0739de7df86f79e08e0157f7451da6f7
+x86
+checksum_v1 = 544d25e35de470e85c19d3a369ccfcb6

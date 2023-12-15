@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="49.5667729415292"
-         height="94.931160033219" />
+         width="270.706729438361"
+         height="123.656053918553" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -155,8 +155,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="332.457333061638"
-         ry="94.3645495317119" />
+         rx="19.054776890071"
+         ry="19.1845492866095" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -184,7 +184,8 @@
          mode="drag"
          selcue="1"
          style="stroke-width:1px;"
-         usecurrent="1" />
+         usecurrent="1"
+         freehand-mode="3" />
     </group>
     <eventcontext
        id="calligraphic"
@@ -316,7 +317,8 @@
        show_sample_in_list="1"
        use_svg2="1"
        style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
-       selcue="1" />
+       selcue="1"
+       align_mode="1" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -332,8 +334,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="465.338672232591"
-       y="144.404376105293"
+       x="273.295566469108"
+       y="318.377453205677"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -609,7 +611,7 @@
        path="">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi" />
       <group
@@ -617,25 +619,25 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="2500" />
+         value="101.900001525879" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/arjuntina/Downloads"
+       path="/home/arjuntina/Files/BU/Classes/Anatomy"
        use_current_dir="1" />
     <group
        id="save_copy"
-       default=""
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="" />
+       path="/home/arjuntina/Files/BU/Classes/Anatomy" />
     <group
        id="open"
        enable_preview="1"
-       path="/home/arjuntina/Files/BU/Classes/OrganicChem/" />
+       path="/home/arjuntina/Files/BU/Classes/Physics" />
     <group
        id="import"
        enable_preview="1"
@@ -688,6 +690,9 @@
     <group
        id="objects"
        expand_to_layer="1" />
+    <group
+       id="printing"
+       asbitmap="0" />
   </group>
   <group
      id="printing">
@@ -847,7 +852,7 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
+       stroke="0"
        rectcorners="1"
        pattern="1"
        gradient="1" />
@@ -964,7 +969,8 @@
       <group
          id="shown"
          ver1.3="1"
-         ver1.3.1="1" />
+         ver1.3.1="1"
+         ver1.3.2="1" />
     </group>
     <group
        id="rendering" />
@@ -977,10 +983,13 @@
      id="extensions"
      org.inkscape.output.png.inkscape.png_bitdepth="99"
      org.inkscape.output.png.inkscape.png_compression="6"
-     org.inkscape.output.png.inkscape.png_antialias="2" />
+     org.inkscape.output.png.inkscape.png_antialias="2"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.output.pdf.cairorenderer.textToPath="paths"
+     org.inkscape.output.pdf.cairorenderer.resolution="600" />
   <group
      id="desktop"
-     style="fill:#0052ff;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-size:10.66666667px;stroke-width:0.94488189">
+     style="fill:none;-inkscape-font-specification:'Noto Sans';font-family:'Noto Sans';font-size:12px;stroke-width:0.37795276;text-anchor:middle;text-align:center;stroke:#ff1000">
     <group
        width="640"
        height="480"

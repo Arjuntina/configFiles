@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/ file:///usr/share/openbox/menu.xsd">
+		
+<menu id="root-menu" label="TITLE" icon="ICON">
+<!-- this is a menu item, such as a program -->
+	<item label="Terminal" icon="ICON">
+		<action name="Execute">
+			<command>
+				alacritty
+			</command>
+		</action>
+	</item>
+
+	<item label="browser" icon="ICON">
+		<action name="Execute">
+			<command>
+				qutebrowser
+			</command>
+		</action>
+	</item>
+
+	<!-- this is a menu header -->
+	<separator
+	label="Header"
+	/>
+
+	<!-- this links to a sub menu -->
+	<menu
+	id="ID"
+	/>
+
+	<!-- this is a horizontal line -->
+	<separator />
+
+	<item label="Reconfigure Openbox">
+		<action name="Reconfigure" />
+	</item>
+
+	<item label="Log Out">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>

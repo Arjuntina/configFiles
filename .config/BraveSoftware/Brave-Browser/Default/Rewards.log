@@ -1,0 +1,7 @@
+--------------------------------------------------------------------------------
+[Nov 28, 2023, 10:22:24.0 AM:ERROR:get_available.cc(63)] Unexpected HTTP status: 426
+[Nov 28, 2023, 10:22:24.0 AM:ERROR:get_available.cc(63)] Unexpected HTTP status: 426
+[Nov 28, 2023, 10:22:25.1 AM:ERROR:refill_confirmation_tokens.cc(188)] Failed to get signed tokens
+[Nov 28, 2023, 10:23:50.3 AM:ERROR:publisher.cc(625)] Publisher info not found
+--------------------------------------------------------------------------------
+[Nov 28, 2023, 5:19:56.0 PM:ERROR:get_available.cc(63)] Unexpected HTTP status: 426

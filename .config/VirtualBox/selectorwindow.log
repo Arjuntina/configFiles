@@ -1,21 +1,21 @@
-00:00:00.468526 VirtualBox GUI VM Selector Window 7.0.10 r158379 linux.amd64 (Aug 11 2023 12:19:51) release log
-00:00:00.468528 Log opened 2023-10-17T20:52:31.509337000Z
-00:00:00.468529 Build Type: release
-00:00:00.468546 OS Product: Linux
-00:00:00.468546 OS Release: 6.5.7-arch1-1
-00:00:00.468547 OS Version: #1 SMP PREEMPT_DYNAMIC Tue, 10 Oct 2023 21:10:21 +0000
-00:00:00.468564 DMI Product Name: XPS 15 9500
-00:00:00.468570 DMI Product Version: 
-00:00:00.468573 Firmware type: UEFI
-00:00:00.469232 Secure Boot: Disabled
-00:00:00.469277 Host RAM: 31718MB (30.9GB) total, 29455MB (28.7GB) available
-00:00:00.469280 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.469281 Process ID: 2282
-00:00:00.469281 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.469301 Qt version: 5.15.11
-00:00:00.472310 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
-00:00:00.477961 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.477972 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:01.083612 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 4x28 x 1904x1160
-00:00:02.943019 GUI: UICommon: Handling aboutToQuit request..
-00:00:03.495080 GUI: UICommon: aboutToQuit request handled!
+00:00:00.391725 VirtualBox GUI VM Selector Window 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
+00:00:00.391727 Log opened 2023-12-01T03:54:19.854660000Z
+00:00:00.391727 Build Type: release
+00:00:00.391728 OS Product: Linux
+00:00:00.391729 OS Release: 6.6.3-arch1-1
+00:00:00.391729 OS Version: #1 SMP PREEMPT_DYNAMIC Wed, 29 Nov 2023 00:37:40 +0000
+00:00:00.391744 DMI Product Name: XPS 15 9500
+00:00:00.391749 DMI Product Version: 
+00:00:00.391752 Firmware type: UEFI
+00:00:00.392473 Secure Boot: Disabled
+00:00:00.392518 Host RAM: 31717MB (30.9GB) total, 25925MB (25.3GB) available
+00:00:00.392520 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.392520 Process ID: 12511
+00:00:00.392521 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.392650 Qt version: 5.15.11
+00:00:00.393998 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.398555 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.398573 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.991730 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 4x28 x 1904x1160
+00:00:12.361605 GUI: UICommon: Handling aboutToQuit request..
+00:00:12.933936 GUI: UICommon: aboutToQuit request handled!
