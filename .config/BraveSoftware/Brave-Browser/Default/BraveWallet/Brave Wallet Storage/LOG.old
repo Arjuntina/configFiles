@@ -1,2 +1,3 @@
-2023/11/28-10:19:40.304 1e25a Creating DB /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage since it was missing.
-2023/11/28-10:19:40.309 1e25a Reusing MANIFEST /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/MANIFEST-000001
+2023/11/28-17:19:50.222 2e54 Reusing MANIFEST /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/MANIFEST-000001
+2023/11/28-17:19:50.222 2e54 Recovering log #3
+2023/11/28-17:19:50.222 2e54 Reusing old log /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/000003.log 

@@ -40,6 +40,7 @@ FAT32
 FLI
 Fibrocartilage
 Frontends
+GPCR
 GTP
 GTPases
 Glutamic
@@ -53,6 +54,7 @@ H4
 HDAC
 HDACs
 Helicase
+Hematopoietic
 Histone
 Histones
 Huckel's
@@ -60,6 +62,7 @@ Hyaline
 IRES
 IWD
 Inr
+Interphase
 JRE
 LocalLow
 Manjaro
@@ -93,6 +96,7 @@ Suckless
 Systemd
 TATA
 TefB
+Transmembrane
 U1
 U2
 U3
@@ -272,4 +276,4 @@ wlan
 wpa
 x11
 x86
-checksum_v1 = 544d25e35de470e85c19d3a369ccfcb6
+checksum_v1 = 9d1e373d970fe8d3b2ce6ab1e22d23af

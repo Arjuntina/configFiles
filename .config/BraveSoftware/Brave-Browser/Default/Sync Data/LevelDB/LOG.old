@@ -1,2 +1,3 @@
-2023/11/28-10:19:40.297 1e2b5 Creating DB /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB since it was missing.
-2023/11/28-10:19:40.301 1e2b5 Reusing MANIFEST /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/11/28-17:19:50.192 2e61 Reusing MANIFEST /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/11/28-17:19:50.201 2e61 Recovering log #3
+2023/11/28-17:19:50.201 2e61 Reusing old log /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000003.log 

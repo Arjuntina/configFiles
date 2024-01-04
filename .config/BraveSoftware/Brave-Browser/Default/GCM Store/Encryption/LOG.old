@@ -1,2 +1,3 @@
-2023/11/28-10:19:42.440 1e268 Creating DB /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/GCM Store/Encryption since it was missing.
-2023/11/28-10:19:42.443 1e268 Reusing MANIFEST /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/GCM Store/Encryption/MANIFEST-000001
+2023/11/28-17:19:52.386 2e54 Reusing MANIFEST /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/GCM Store/Encryption/MANIFEST-000001
+2023/11/28-17:19:52.386 2e54 Recovering log #3
+2023/11/28-17:19:52.386 2e54 Reusing old log /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/GCM Store/Encryption/000003.log 

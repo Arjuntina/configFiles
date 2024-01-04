@@ -1,2 +1,3 @@
-2023/12/11-23:03:14.133 39b9 Creating DB /home/arjuntina/.config/koodo-reader/Local Storage/leveldb since it was missing.
-2023/12/11-23:03:14.140 39b9 Reusing MANIFEST /home/arjuntina/.config/koodo-reader/Local Storage/leveldb/MANIFEST-000001
+2024/01/01-13:38:08.085 6d5 Reusing MANIFEST /home/arjuntina/.config/koodo-reader/Local Storage/leveldb/MANIFEST-000001
+2024/01/01-13:38:08.085 6d5 Recovering log #22
+2024/01/01-13:38:08.085 6d5 Reusing old log /home/arjuntina/.config/koodo-reader/Local Storage/leveldb/000022.log 

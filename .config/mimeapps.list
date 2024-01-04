@@ -175,15 +175,15 @@ x-scheme-handler/webcals=userapp-Thunderbird-ZZNEE2.desktop;
 
 [Default Applications]
 inode/directory=pcmanfm-qt.desktop;
-text/html=org.qutebrowser.qutebrowser.desktop
-x-scheme-handler/about=org.qutebrowser.qutebrowser.desktop
+text/html=firefox.desktop
+x-scheme-handler/about=firefox.desktop
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
-x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
-x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-VP39D2.desktop
 x-scheme-handler/slack=slack.desktop
 x-scheme-handler/tel=Zoom.desktop
-x-scheme-handler/unknown=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/unknown=firefox.desktop
 x-scheme-handler/lunarclient=lunarclient.desktop
 x-scheme-handler/discord-562286213059444737=launcher.desktop
 application/xhtml+xml=org.qutebrowser.qutebrowser.desktop
