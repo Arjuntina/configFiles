@@ -1,6 +1,0 @@
-2023/12/21-15:44:51.653 265e Reusing MANIFEST /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/21-15:44:51.653 265e Recovering log #3
-2023/12/21-15:44:51.665 265e Reusing old log /home/arjuntina/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
-2023/12/21-16:02:59.259 265e Level-0 table #5: started
-2023/12/21-16:02:59.269 265e Level-0 table #5: 1343315 bytes OK
-2023/12/21-16:02:59.271 265e Delete type=0 #3
