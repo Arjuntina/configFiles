@@ -1,9 +1,0 @@
-2024/01/02-18:54:50.340 2763 Reusing MANIFEST /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/02-18:54:50.341 2763 Recovering log #222
-2024/01/02-18:54:50.341 2763 Reusing old log /home/arjuntina/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000222.log 
-2024/01/02-18:54:50.384 2764 Compacting 1@0 + 1@1 files
-2024/01/02-18:54:50.405 2764 Generated table #225@0: 10960 keys, 1259876 bytes
-2024/01/02-18:54:50.405 2764 Compacted 1@0 + 1@1 files => 1259876 bytes
-2024/01/02-18:54:50.406 2764 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/01/02-18:54:50.406 2764 Delete type=2 #223
-2024/01/02-18:54:50.406 2764 Delete type=2 #220
